@@ -101,6 +101,7 @@ style: |
   /* Blockquote styles */
   blockquote {
       border-left: 4px solid var(--secondary-color);
+      background-color: rgba(var(--light-gray), 0.4);
       margin-bottom: 1.1rem;
       font-size: 0.8rem;
       line-height: 1.8;
