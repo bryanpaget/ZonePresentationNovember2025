@@ -64,6 +64,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
 - **CronJobs** for scheduled production workloads
+- **VS Code** with AI-assisted development
 
 > The secure, modern platform for StatCan's data science needs.
 
@@ -80,8 +81,10 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 2. **Interactive Visualizations** - D3 and JavaScript capabilities  
 3. **Standard Data Science** - Python and R workflows
 4. **SAS Integration** - Coexistence and migration tools
+5. **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
+6. **AI-Assisted Coding** - Continue extension with Ollama
 
-> From batch processing to interactive analytics -
+> From batch processing to AI-powered development -
 > all in one platform.
 
 ---
@@ -207,6 +210,58 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 
 ---
 
+<!-- Demo 5: Cross-Platform Workflow -->
+## Demo 5: Cross-Platform Data Sharing
+
+![bg left:33%](./img/zone-1.png)
+
+**Seamless Environment Integration**
+
+- **VS Code** for development and debugging
+- **JupyterLab** for interactive analysis
+- **RStudio** for statistical computing
+- **Shared data** across all platforms
+- **Real-time collaboration** between tools
+
+> Work in your preferred environment without data silos
+
+---
+
+<!-- Demo 6: AI-Assisted Development -->
+## Demo 6: AI-Assisted Coding
+
+![bg left:33%](./img/zone-10.png)
+
+**Continue VS Code Extension with Ollama**
+
+- **Local AI models** running on GPU-accelerated infrastructure
+- **Code completion** and generation in real-time
+- **Protected B compliant** - no data leaves the environment
+- **Multi-language support** across all our platforms
+
+> Enterprise-grade AI assistance that respects data sovereignty
+
+---
+
+<!-- AI Capabilities -->
+## AI-Powered Development Features
+
+![bg left:33%](./img/zone-9.png)
+
+**What Continue + Ollama Enables:**
+
+- **Smart code completion** with context awareness
+- **Documentation generation** for functions and classes
+- **Bug detection and fixes** with explanations
+- **Test case generation** for your code
+- **Code refactoring suggestions** for better performance
+- **Data science pattern recognition** and implementation
+
+> Local AI models mean your Protected B data never leaves our environment
+> while still getting cutting-edge AI assistance
+
+---
+
 <!-- Platform Architecture -->
 ## Technical Foundation
 
@@ -219,6 +274,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Azure AKS** with cloud-agnostic design
 - **Protected B compliance** built-in
 - **Multi-language runtime** support
+- **GPU acceleration** for AI workloads
 
 ---
 
@@ -230,7 +286,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 **Scalability Features:**
 
 - Automatic resource scaling based on demand
-- GPU acceleration for deep learning workloads
+- GPU acceleration for deep learning and AI workloads
 - Distributed computing capabilities
 - High availability and fault tolerance
 
@@ -264,6 +320,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - Real-time inference capabilities
 - Collaborative data science features
 - Enhanced security and compliance tools
+- Expanded AI model selection
 
 > We're building the future of data science at StatCan,
 > one feature at a time.
@@ -282,6 +339,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - Migrate your SAS workflows gradually
 - Deploy production CronJobs
 - Build interactive dashboards
+- Try AI-assisted development
 
 > The platform is ready. The community is growing.
 > Your data science journey starts here.
@@ -299,6 +357,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Documentation**: Comprehensive guides available
 - **Training**: Regular workshops and office hours
 - **Support**: Zone team support channel
+- **VS Code Setup**: Continue extension guide available
 
 > We're here to help you succeed in The Zone.
 > Reach out anytime!
