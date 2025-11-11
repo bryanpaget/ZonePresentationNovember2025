@@ -101,21 +101,17 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Comprehensive monitoring** with job history and status tracking
 - **Flexible scheduling** from simple daily runs to complex cron expressions
 
----
-
-<!-- Demo 1: CronJobs Use Cases -->
-## Demo 1: Production CronJobs
-
-![bg left:33%](./img/zone-8.png)
-
 **Perfect for:**
-
 - Automated data ingestion pipelines
 - Scheduled model retraining
 - Regular reporting and analytics
 - Data validation and quality checks
 
 > Reliable automation for production workloads
+
+---
+**Live Demo**
+---
 
 ---
 
@@ -131,21 +127,17 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Interactive web applications** with real-time data
 - **Custom dashboard creation** without external tools
 
----
-
-<!-- Demo 2: D3/JavaScript Features -->
-## Demo 2: Interactive Visualizations
-
-![bg left:33%](./img/zone-9.png)
-
 **Powerful Features:**
-
 - Dynamic charts that respond to data changes
 - Real-time data streaming capabilities
 - Custom interactive visualizations
 - Web-based dashboard deployment
 
 > Create stunning visualizations without leaving the platform
+
+---
+**Live Demo**
+---
 
 ---
 
@@ -162,13 +154,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **TensorFlow & PyTorch** for deep learning
 - **matplotlib & seaborn** for visualization
 
----
-
-<!-- Demo 3: Standard Data Science Continued -->
-## Demo 3: Python & R Workflows
-
-![bg left:33%](./img/zone-3.png)
-
 **R Ecosystem:**
 - **tidyverse** for data wrangling
 - **ggplot2** for advanced graphics
@@ -176,7 +161,13 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **caret & tidymodels** for ML
 
 **Unified Environment:**
-- Shared data between languages, integrated package management, version control integration
+- Shared data between languages
+- Integrated package management
+- Version control integration
+
+---
+**Live Demo**
+---
 
 ---
 
@@ -192,21 +183,15 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Side-by-side code comparison** and validation
 - **Automated conversion tools** for common SAS patterns
 
----
-
-<!-- Demo 4: SAS Migration Support -->
-## Demo 4: SAS Coexistence & Migration
-
-![bg left:33%](./img/zone-3.png)
-
 **Migration Support:**
-
 - SAS procedures to Python/R equivalents
 - DATA step transformations to pandas/tidyverse
 - Statistical analysis cross-validation
 - Performance benchmarking between languages
 
-> Your SAS investment is safe while you modernize
+---
+**Live Demo**
+---
 
 ---
 
@@ -226,6 +211,10 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 > Work in your preferred environment without data silos
 
 ---
+**Live Demo**
+---
+
+---
 
 <!-- Demo 6: AI-Assisted Development -->
 ## Demo 6: AI-Assisted Coding
@@ -237,9 +226,13 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Local AI models** running on GPU-accelerated infrastructure
 - **Code completion** and generation in real-time
 - **Protected B compliant** - no data leaves the environment
-- **Multi-language support** across all our platforms
+- **Multi-language support** Python, R, SAS, Julia, Golang, .NET
 
 > Enterprise-grade AI assistance that respects data sovereignty
+
+---
+**Live Demo**
+---
 
 ---
 
@@ -253,9 +246,9 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Smart code completion** with context awareness
 - **Documentation generation** for functions and classes
 - **Bug detection and fixes** with explanations
-- **Test case generation** for your code
 - **Code refactoring suggestions** for better performance
 - **Data science pattern recognition** and implementation
+- **Code translation**: From SAS to Open Source
 
 > Local AI models mean your Protected B data never leaves our environment
 > while still getting cutting-edge AI assistance
@@ -276,20 +269,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Multi-language runtime** support
 - **GPU acceleration** for AI workloads
 
----
-
-<!-- Platform Architecture Continued -->
-## Scalability & Performance
-
-![bg left:33%](./img/zone-1.png)
-
-**Scalability Features:**
-
-- Automatic resource scaling based on demand
-- GPU acceleration for deep learning and AI workloads
-- Distributed computing capabilities
-- High availability and fault tolerance
-
 > The same platform that powers modern tech companies,
 > tailored for government security needs.
 
@@ -305,17 +284,9 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Kubeflow Pipelines** for complex, reproducible workflows
 - **Enhanced monitoring** with real-time dashboards
 - **Expanded database connectors** for enterprise data sources
-- **Performance optimizations** for large-scale data processing
+- **Spark** for large-scale data processing
 
----
-
-<!-- Future Roadmap Continued -->
-## Coming Soon
-
-![bg left:33%](./img/zone-9.png)
-
-**Upcoming Features:**
-
+**Coming Soon:**
 - Automated ML model deployment
 - Real-time inference capabilities
 - Collaborative data science features
@@ -335,11 +306,11 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 **You're Invited To:**
 
 - Access the platform: https://zone.statcan.ca
-- Attend our training sessions and workshops
+- Watch our demo videos
 - Migrate your SAS workflows gradually
 - Deploy production CronJobs
 - Build interactive dashboards
-- Try AI-assisted development
+- Talk to us about AI-assisted development
 
 > The platform is ready. The community is growing.
 > Your data science journey starts here.
@@ -357,7 +328,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Documentation**: Comprehensive guides available
 - **Training**: Regular workshops and office hours
 - **Support**: Zone team support channel
-- **VS Code Setup**: Continue extension guide available
 
 > We're here to help you succeed in The Zone.
 > Reach out anytime!
