@@ -28,7 +28,7 @@ style: |
       --code-font: "Fira Code", "Consolas", monospace;
 
       /* Size variables */
-      --base-font-size: 14px;
+      --base-font-size: 15px;
       --h1-size: 1.6em;
       --h2-size: 1.3em;
       --h3-size: 1.1em;
@@ -118,7 +118,7 @@ style: |
   }
 
   li {
-      margin-bottom: 0.1rem;    
+      margin-bottom: 0.2rem;    
   }
 
   /* Footer and header customization */
