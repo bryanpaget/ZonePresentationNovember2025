@@ -36,8 +36,8 @@ style: |
       --code-size: 0.8em;
 
       /* Spacing variables */
-      --section-padding: 1.4rem;
-      --element-margin: 0.7rem;
+      --section-padding: 1rem;
+      --element-margin: 1rem;
   }
 
   /* Apply the font to all elements */
