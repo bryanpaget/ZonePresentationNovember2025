@@ -28,12 +28,12 @@ style: |
       --code-font: "Fira Code", "Consolas", monospace;
 
       /* Size variables */
-      --base-font-size: 16px;
-      --h1-size: 1em;
-      --h2-size: 1em;
-      --h3-size: 1em;
-      --p-size: 1em;
-      --code-size: 1em;
+      --base-font-size: 14px;
+      --h1-size: 1.6em;
+      --h2-size: 1.3em;
+      --h3-size: 1.1em;
+      --p-size: 0.8em;
+      --code-size: 0.8em;
 
       /* Spacing variables */
       --section-padding: 1.4rem;
@@ -84,7 +84,7 @@ style: |
   p {
       font-size: var(--p-size);
       color: var(--text-color);
-      line-height: 1.2  ;
+      line-height: 1.2;
       margin-bottom: var(--element-margin);
   }
 
