@@ -110,10 +110,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 > Reliable automation for production workloads
 
 ---
-**Live Demo**
----
-
----
 
 <!-- Demo 2: D3/JavaScript -->
 ## Demo 2: Interactive Visualizations
@@ -135,9 +131,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 
 > Create stunning visualizations without leaving the platform
 
----
-**Live Demo**
----
 
 ---
 
@@ -165,9 +158,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - Integrated package management
 - Version control integration
 
----
-**Live Demo**
----
 
 ---
 
@@ -189,9 +179,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - Statistical analysis cross-validation
 - Performance benchmarking between languages
 
----
-**Live Demo**
----
 
 ---
 
@@ -210,9 +197,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 
 > Work in your preferred environment without data silos
 
----
-**Live Demo**
----
 
 ---
 
@@ -230,9 +214,6 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 
 > Enterprise-grade AI assistance that respects data sovereignty
 
----
-**Live Demo**
----
 
 ---
 
