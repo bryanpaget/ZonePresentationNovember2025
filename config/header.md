@@ -29,7 +29,7 @@ style: |
 
       /* Size variables */
       --base-font-size: 16px;
-      --h1-size: 1.8em;
+      --h1-size: 1.6em;
       --h2-size: 1.3em;
       --h3-size: 1.1em;
       --p-size: 0.8em;
@@ -84,7 +84,7 @@ style: |
   p {
       font-size: var(--p-size);
       color: var(--text-color);
-      line-height: 1.2;
+      line-height: 1.1;
       margin-bottom: var(--element-margin);
   }
 
