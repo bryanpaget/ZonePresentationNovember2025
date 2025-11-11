@@ -22,7 +22,7 @@
 
 ![bg left:33%](./img/zone-0.png)
 
-> Fall 2025, featuring Anray Liu from uOttawa!
+> Featuring Anray Liu from uOttawa!
 
 **Developers (IT-02):**
 - Wendy Gaultier
@@ -43,7 +43,7 @@
 **Significant Growth & Stabilization**
 
 - **2,500+ onboarded users** (continuing to grow)
-- **290+ daily notebook sessions** (more than doubled since Summer 2025!)
+- **290+ daily notebook sessions** (more than double since August 2025!)
 - **Production CronJobs** running critical workflows
 - **Platform hardening** for enhanced stability and performance
 

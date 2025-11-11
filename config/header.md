@@ -29,15 +29,15 @@ style: |
 
       /* Size variables */
       --base-font-size: 16px;
-      --h1-size: 2em;
-      --h2-size: 1.5em;
-      --h3-size: 1.2em;
-      --p-size: 0.9em;
-      --code-size: 0.85em;
+      --h1-size: 1.8em;
+      --h2-size: 1.3em;
+      --h3-size: 1.1em;
+      --p-size: 0.8em;
+      --code-size: 0.8em;
 
       /* Spacing variables */
-      --section-padding: 1.5rem;
-      --element-margin: 0.75rem;
+      --section-padding: 1.4rem;
+      --element-margin: 0.7rem;
   }
 
   /* Apply the font to all elements */
