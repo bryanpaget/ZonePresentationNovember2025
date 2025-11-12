@@ -1,21 +1,21 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: data-processing-pipeline
+  name: real-time-analytics
   namespace: your-namespace
 spec:
-  schedule: "0 6 * * 1-5"  # 6 AM Monday-Friday
+  schedule: "*/2 * * * *"  # Every 2 minutes for demo
   jobTemplate:
     spec:
       template:
         spec:
           containers:
-          - name: data-processor
+          - name: analytics-processor
             image: zone/python:latest
-            command: ["python", "/app/process_data.py"]
+            command: ["python", "/app/realtime_analytics.py"]
             env:
             - name: ENVIRONMENT
-              value: "production"
+              value: "demo"
             resources:
               requests:
                 memory: "2Gi"
@@ -23,4 +23,11 @@ spec:
               limits:
                 memory: "4Gi"
                 cpu: "2"
+            volumeMounts:
+            - mountPath: /shared-data
+              name: shared-volume
+          volumes:
+          - name: shared-volume
+            persistentVolumeClaim:
+              claimName: analytics-pvc
           restartPolicy: OnFailure
