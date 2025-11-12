@@ -10,16 +10,10 @@ TEMP_DIR = temp
 # Default target
 all: pdf
 
-# Create PDF from markdown using Chrome
+# Create PDF from markdown (uses Marp's built-in Chromium)
 pdf: setup combine
-	@echo "Building PDF with Chrome..."
-	PUPPETEER_PRODUCT=chrome marp $(COMBINED_MD) --pdf --output $(OUTPUT_PDF) --allow-local-files --pdf-outlines
-	@echo "PDF built: $(OUTPUT_PDF)"
-
-# Alternative: Explicitly specify Chrome path if needed
-pdf-chrome: setup combine
-	@echo "Building PDF with explicit Chrome path..."
-	CHROME_PATH=/usr/bin/google-chrome marp $(COMBINED_MD) --pdf --output $(OUTPUT_PDF) --allow-local-files --pdf-outlines
+	@echo "Building PDF..."
+	marp $(COMBINED_MD) --pdf --output $(OUTPUT_PDF) --allow-local-files --pdf-outlines
 	@echo "PDF built: $(OUTPUT_PDF)"
 
 # Setup temporary directory and copy assets
@@ -39,7 +33,7 @@ clean:
 	rm -rf $(TEMP_DIR)
 	rm -f $(OUTPUT_PDF)
 
-# Install only Marp CLI
+# Install Marp CLI
 deps:
 	@echo "Installing Marp CLI..."
 	npm install -g @marp-team/marp-cli
@@ -63,22 +57,15 @@ open: pdf
 		echo "Cannot open PDF automatically. Please open $(OUTPUT_PDF) manually."; \
 	fi
 
-# Find Chrome path (for debugging)
-chrome-path:
-	@echo "Finding Chrome installation..."
-	@which google-chrome || which chromium-browser || echo "Chrome/Chromium not found in PATH"
-
 # Help target
 help:
 	@echo "Available targets:"
-	@echo "  all         - Build PDF (default)"
-	@echo "  pdf         - Build PDF using Chrome"
-	@echo "  pdf-chrome  - Build PDF with explicit Chrome path"
-	@echo "  preview     - Start live preview server"
-	@echo "  open        - Build PDF and open it"
-	@echo "  deps        - Install Marp CLI only"
-	@echo "  chrome-path - Show Chrome installation path"
-	@echo "  clean       - Remove generated files"
-	@echo "  help        - Show this help message"
+	@echo "  all     - Build PDF (default)"
+	@echo "  pdf     - Build PDF only"
+	@echo "  preview - Start live preview server"
+	@echo "  open    - Build PDF and open it"
+	@echo "  deps    - Install Marp CLI"
+	@echo "  clean   - Remove generated files"
+	@echo "  help    - Show this help message"
 
-.PHONY: all pdf pdf-chrome setup combine clean deps preview open chrome-path help check-marp
+.PHONY: all pdf setup combine clean deps preview open help check-marp

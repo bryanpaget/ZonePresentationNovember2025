@@ -35,6 +35,25 @@
 
 ---
 
+<!-- What is The Zone? -->
+## What Is The Zone?
+
+![bg left:33%](./img/zone-1.png)
+
+The Zone is an open source **Protected B data science platform** based on **Kubeflow**, designed to orchestrate notebooks, jobs, and machine learning workflows.
+
+**Featuring:**
+
+- **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
+- **Kubeflow** for scalable infrastructure
+- **CronJobs** for scheduled production workloads
+- **VS Code** with AI-assisted development
+- **Portable** runs on any cloud, currently running on Azure
+
+> The secure, modern platform for StatCan's data science needs.
+
+---
+
 <!-- Platform Growth & Hardening -->
 ## Platform Evolution
 
@@ -46,27 +65,9 @@
 - **290+ daily notebook sessions** (more than double since August 2025!)
 - **Production CronJobs** running critical workflows
 - **Platform hardening** for enhanced stability and performance
+- **AI Coding** - Proof of concept work started
 
-> We're not just growing - we're maturing into
-> a production-ready platform.
-
----
-
-<!-- What is The Zone? -->
-## What Is The Zone?
-
-![bg left:33%](./img/zone-1.png)
-
-The Zone is a **Protected B data science platform** based on **Kubeflow**, designed to orchestrate notebooks, jobs, and machine learning workflows.
-
-**Featuring:**
-
-- **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
-- **Kubeflow** for scalable infrastructure
-- **CronJobs** for scheduled production workloads
-- **VS Code** with AI-assisted development
-
-> The secure, modern platform for StatCan's data science needs.
+> We're not just growing - we're maturing into a production-ready platform.
 
 ---
 
@@ -82,10 +83,9 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 3. **Standard Data Science** - Python and R workflows
 4. **SAS Integration** - Coexistence and migration tools
 5. **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
-6. **AI-Assisted Coding** - Continue extension with Ollama
+6. **AI-Assisted Coding** - Continue extension with Ollama (Proof of Concept)
 
-> From batch processing to AI-powered development -
-> all in one platform.
+> From batch processing to AI-powered development - all in one platform.
 
 ---
 
@@ -101,11 +101,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Comprehensive monitoring** with job history and status tracking
 - **Flexible scheduling** from simple daily runs to complex cron expressions
 
-**Perfect for:**
-- Automated data ingestion pipelines
-- Scheduled model retraining
-- Regular reporting and analytics
-- Data validation and quality checks
+**Perfect for:** Automated data ingestion, model retraining, reporting, data validation
 
 > Reliable automation for production workloads
 
@@ -123,14 +119,9 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Interactive web applications** with real-time data
 - **Custom dashboard creation** without external tools
 
-**Powerful Features:**
-- Dynamic charts that respond to data changes
-- Real-time data streaming capabilities
-- Custom interactive visualizations
-- Web-based dashboard deployment
+**Powerful Features:** Dynamic charts, real-time data streaming, custom visualizations
 
 > Create stunning visualizations without leaving the platform
-
 
 ---
 
@@ -144,20 +135,12 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 **Python Ecosystem:**
 - **pandas** for data manipulation
 - **scikit-learn** for machine learning
-- **TensorFlow & PyTorch** for deep learning
 - **matplotlib & seaborn** for visualization
 
 **R Ecosystem:**
 - **tidyverse** for data wrangling
 - **ggplot2** for advanced graphics
-- **shiny** for interactive apps
 - **caret & tidymodels** for ML
-
-**Unified Environment:**
-- Shared data between languages
-- Integrated package management
-- Version control integration
-
 
 ---
 
@@ -173,12 +156,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Side-by-side code comparison** and validation
 - **Automated conversion tools** for common SAS patterns
 
-**Migration Support:**
-- SAS procedures to Python/R equivalents
-- DATA step transformations to pandas/tidyverse
-- Statistical analysis cross-validation
-- Performance benchmarking between languages
-
+**Migration Support:** SAS procedures to Python/R, DATA steps to pandas/tidyverse
 
 ---
 
@@ -193,15 +171,14 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **JupyterLab** for interactive analysis
 - **RStudio** for statistical computing
 - **Shared data** across all platforms
-- **Real-time collaboration** between tools
 
 > Work in your preferred environment without data silos
-
 
 ---
 
 <!-- Demo 6: AI-Assisted Development -->
 ## Demo 6: AI-Assisted Coding
+*Proof of Concept*
 
 ![bg left:33%](./img/zone-10.png)
 
@@ -210,15 +187,15 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Local AI models** running on GPU-accelerated infrastructure
 - **Code completion** and generation in real-time
 - **Protected B compliant** - no data leaves the environment
-- **Multi-language support** Python, R, SAS, Julia, Golang, .NET
+- **Multi-language support** Python, R, SAS, Julia
 
-> Enterprise-grade AI assistance that respects data sovereignty
-
+> *Currently in proof of concept stage*
 
 ---
 
 <!-- AI Capabilities -->
 ## AI-Powered Development Features
+*Proof of Concept*
 
 ![bg left:33%](./img/zone-9.png)
 
@@ -228,11 +205,9 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Documentation generation** for functions and classes
 - **Bug detection and fixes** with explanations
 - **Code refactoring suggestions** for better performance
-- **Data science pattern recognition** and implementation
 - **Code translation**: From SAS to Open Source
 
-> Local AI models mean your Protected B data never leaves our environment
-> while still getting cutting-edge AI assistance
+> *Your Protected B data stays secure*
 
 ---
 
@@ -250,8 +225,7 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Multi-language runtime** support
 - **GPU acceleration** for AI workloads
 
-> The same platform that powers modern tech companies,
-> tailored for government security needs.
+> The same platform that powers modern tech companies, tailored for government security needs.
 
 ---
 
@@ -266,16 +240,9 @@ The Zone is a **Protected B data science platform** based on **Kubeflow**, desig
 - **Enhanced monitoring** with real-time dashboards
 - **Expanded database connectors** for enterprise data sources
 - **Spark** for large-scale data processing
+- **AI model integration** - advancing from proof of concept
 
-**Coming Soon:**
-- Automated ML model deployment
-- Real-time inference capabilities
-- Collaborative data science features
-- Enhanced security and compliance tools
-- Expanded AI model selection
-
-> We're building the future of data science at StatCan,
-> one feature at a time.
+> We're building the future of data science at StatCan
 
 ---
 

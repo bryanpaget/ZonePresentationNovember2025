@@ -28,16 +28,16 @@ style: |
       --code-font: "Fira Code", "Consolas", monospace;
 
       /* Size variables */
-      --base-font-size: 15px;
-      --h1-size: 1.6em;
-      --h2-size: 1.3em;
-      --h3-size: 1.1em;
+      --base-font-size: 16px;
+      --h1-size: 1.7em;
+      --h2-size: 1.4em;
+      --h3-size: 1.2em;
       --p-size: 0.8em;
       --code-size: 0.8em;
 
       /* Spacing variables */
       --section-padding: 0.5rem;
-      --element-margin: 0.5rem;
+      --element-margin: 0.6rem;
   }
 
   /* Apply the font to all elements */
@@ -118,7 +118,7 @@ style: |
   }
 
   li {
-      margin-bottom: 0.2rem;    
+      margin-bottom: 0.4rem;    
   }
 
   /* Footer and header customization */
