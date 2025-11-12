@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: hello-world-logger
+  namespace: your-namespace
+spec:
+  schedule: "*/1 * * * *"  # Every minute
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: logger
+            image: zone/python:latest
+            command: 
+            - /bin/sh
+            - -c
+            - |
+              echo "$(date): Hello World from CronJob!" >> /logs/hello-world.log
+              echo "Log entry written at $(date)"
+            volumeMounts:
+            - mountPath: /logs
+              name: log-volume
+          volumes:
+          - name: log-volume
+            persistentVolumeClaim:
+              claimName: hello-world-logs
+          restartPolicy: OnFailure
