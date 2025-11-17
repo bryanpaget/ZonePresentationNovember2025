@@ -78,9 +78,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ### See The Zone in Action
 
-1. **Production CronJobs** - Automated scheduled workflows
-2. **Interactive Visualizations** - D3 and JavaScript capabilities  
-3. **Standard Data Science** - Python and R workflows
+1. **Production CronJobs** - Anomaly monitoring & reporting
+2. **Interactive Dashboards** - Statistical analysis & visualization  
+3. **Cross-Language Workflows** - R and Python integration
 4. **SAS Integration** - Coexistence and migration tools
 5. **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
 6. **AI-Assisted Coding** - Continue extension with Ollama (Proof of Concept)
@@ -90,57 +90,66 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ---
 
 <!-- Demo 1: CronJobs -->
-## Demo 1: Production CronJobs
+## Demo 1: Anomaly Monitoring System
 
 ![bg left:33%](./img/zone-8.png)
 
-**Enterprise-Grade Scheduling**
+**Enterprise-Grade Anomaly Detection**
 
 - **Kubernetes-native scheduling** with automatic retries and failure handling
-- **Secure, isolated execution** for Protected B data processing
-- **Comprehensive monitoring** with job history and status tracking
-- **Flexible scheduling** from simple daily runs to complex cron expressions
+- **R and Python integration** for statistical analysis
+- **Automated reporting** with academic-quality statistical reports
+- **GitOps workflow** with automatic dashboard updates
+- **Distributed architecture** across multiple repositories
 
-**Perfect for:** Automated data ingestion, model retraining, reporting, data validation
+**Real-world application:** Temperature monitoring with:
+- Synthetic data generation
+- Statistical anomaly detection
+- Comprehensive reporting system
+- Situation investigation pipeline
 
-> Reliable automation for production workloads
+> Reliable automation for production statistical monitoring
 
 ---
 
-<!-- Demo 2: D3/JavaScript -->
-## Demo 2: Interactive Visualizations
+<!-- Demo 2: Interactive Dashboards -->
+## Demo 2: Statistical Dashboards & Reporting
 
 ![bg left:33%](./img/zone-9.png)
 
-**Rich, Interactive Dashboards**
+**Professional Statistical Visualizations**
 
-- **D3.js integration** for advanced data visualization
-- **JavaScript execution** directly in Jupyter notebooks
-- **Interactive web applications** with real-time data
-- **Custom dashboard creation** without external tools
+- **Distribution analysis** with Earth Mover's Distance calculations
+- **Interactive anomaly explorer** with detailed statistical context
+- **Academic-grade reporting** with LaTeX formulas and comprehensive analysis
+- **Real-time data updates** with automatic refresh capabilities
+- **Executive summary views** with key operational metrics
 
-**Powerful Features:** Dynamic charts, real-time data streaming, custom visualizations
+**Powerful Features:** Probability density comparisons, z-score analysis, anomaly probability assessment, distribution fitting
 
-> Create stunning visualizations without leaving the platform
+> Create professional statistical reports without leaving the platform
 
 ---
 
-<!-- Demo 3: Standard Data Science -->
-## Demo 3: Python & R Workflows
+<!-- Demo 3: Cross-Language Workflows -->
+## Demo 3: R and Python Integration
 
 ![bg left:33%](./img/zone-3.png)
 
-**Comprehensive Data Science Stack**
+**Seamless Language Interoperability**
 
-**Python Ecosystem:**
-- **pandas** for data manipulation
-- **scikit-learn** for machine learning
-- **matplotlib & seaborn** for visualization
+**R for Statistical Analysis:**
+- **Distribution fitting** with multiple theoretical models
+- **Earth Mover's Distance** calculations for distribution comparison
+- **Statistical tests** and probability density functions
 
-**R Ecosystem:**
-- **tidyverse** for data wrangling
-- **ggplot2** for advanced graphics
-- **caret & tidymodels** for ML
+**Python for Visualization & Automation:**
+- **Matplotlib & Seaborn** for professional visualizations
+- **Automated report generation** with markdown formatting
+- **Git integration** for workflow automation
+- **System monitoring** and dashboard updates
+
+> Best tools for each task, working together seamlessly
 
 ---
 
@@ -161,16 +170,18 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ---
 
 <!-- Demo 5: Cross-Platform Workflow -->
-## Demo 5: Cross-Platform Data Sharing
+## Demo 5: Integrated Monitoring Platform
 
 ![bg left:33%](./img/zone-1.png)
 
-**Seamless Environment Integration**
+**End-to-End Data Science Workflow**
 
 - **VS Code** for development and debugging
-- **JupyterLab** for interactive analysis
-- **RStudio** for statistical computing
-- **Shared data** across all platforms
+- **JupyterLab** for interactive analysis and notebook sharing
+- **RStudio** for statistical computing and distribution analysis
+- **Shared data** across all platforms with Git integration
+- **Automated pipelines** from data collection to executive reporting
+- **Scientific visualization** with publication-quality plots
 
 > Work in your preferred environment without data silos
 
@@ -241,6 +252,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Expanded database connectors** for enterprise data sources
 - **Spark** for large-scale data processing
 - **AI model integration** - advancing from proof of concept
+- **Multi-variate anomaly detection** and clustering analysis
 
 > We're building the future of data science at StatCan
 
@@ -253,7 +265,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **You're Invited To:**
 
-- Access the platform: https://zone.statcan.ca
+- Access the platform: https://zone.statcan.ca  
 - Watch our demo videos
 - Migrate your SAS workflows gradually
 - Deploy production CronJobs
@@ -272,7 +284,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Resources & Support**
 
-- **Platform**: https://zone.statcan.ca
+- **Platform**: https://zone.statcan.ca  
 - **Documentation**: Comprehensive guides available
 - **Training**: Regular workshops and office hours
 - **Support**: Zone team support channel
