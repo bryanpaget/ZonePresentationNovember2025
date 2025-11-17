@@ -72,60 +72,51 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ---
 
 <!-- Live Demos -->
-## Platform Capabilities: Live Demos
+## Platform Capabilities
 
 ![bg left:33%](./img/zone-8.png)
 
-### See The Zone in Action
+### Live Demonstrations
 
 1. **Production CronJobs** - Anomaly monitoring & reporting
 2. **Interactive Dashboards** - Statistical analysis & visualization  
 3. **Cross-Language Workflows** - R and Python integration
 4. **SAS Integration** - Coexistence and migration tools
 5. **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
-6. **AI-Assisted Coding** - Continue extension with Ollama (Proof of Concept)
 
-> From batch processing to AI-powered development - all in one platform.
+> From batch processing to interactive analysis - all in one platform.
 
 ---
 
 <!-- Demo 1: CronJobs -->
-## Demo 1: Anomaly Monitoring System
+## Demo 1: Anomaly Monitoring
 
 ![bg left:33%](./img/zone-8.png)
 
 **Enterprise-Grade Anomaly Detection**
 
-- **Kubernetes-native scheduling** with automatic retries and failure handling
+- **Kubernetes-native scheduling** with automatic retries
 - **R and Python integration** for statistical analysis
-- **Automated reporting** with academic-quality statistical reports
+- **Automated reporting** with academic-quality reports
 - **GitOps workflow** with automatic dashboard updates
 - **Distributed architecture** across multiple repositories
-
-**Real-world application:** Temperature monitoring with:
-- Synthetic data generation
-- Statistical anomaly detection
-- Comprehensive reporting system
-- Situation investigation pipeline
 
 > Reliable automation for production statistical monitoring
 
 ---
 
 <!-- Demo 2: Interactive Dashboards -->
-## Demo 2: Statistical Dashboards & Reporting
+## Demo 2: Statistical Dashboards
 
 ![bg left:33%](./img/zone-9.png)
 
 **Professional Statistical Visualizations**
 
-- **Distribution analysis** with Earth Mover's Distance calculations
-- **Interactive anomaly explorer** with detailed statistical context
-- **Academic-grade reporting** with LaTeX formulas and comprehensive analysis
-- **Real-time data updates** with automatic refresh capabilities
+- **Distribution analysis** with Earth Mover's Distance
+- **Interactive anomaly explorer** with statistical context
+- **Academic-grade reporting** with comprehensive analysis
+- **Real-time data updates** with automatic refresh
 - **Executive summary views** with key operational metrics
-
-**Powerful Features:** Probability density comparisons, z-score analysis, anomaly probability assessment, distribution fitting
 
 > Create professional statistical reports without leaving the platform
 
@@ -140,21 +131,20 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **R for Statistical Analysis:**
 - **Distribution fitting** with multiple theoretical models
-- **Earth Mover's Distance** calculations for distribution comparison
+- **Earth Mover's Distance** calculations for comparison
 - **Statistical tests** and probability density functions
 
 **Python for Visualization & Automation:**
 - **Matplotlib & Seaborn** for professional visualizations
 - **Automated report generation** with markdown formatting
 - **Git integration** for workflow automation
-- **System monitoring** and dashboard updates
 
 > Best tools for each task, working together seamlessly
 
 ---
 
 <!-- Demo 4: SAS Integration -->
-## Demo 4: SAS Coexistence & Migration
+## Demo 4: SAS Coexistence
 
 ![bg left:33%](./img/zone-3.png)
 
@@ -164,24 +154,24 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Gradual migration path** for existing SAS workflows
 - **Side-by-side code comparison** and validation
 - **Automated conversion tools** for common SAS patterns
+- **SAS procedures to Python/R** translation support
 
-**Migration Support:** SAS procedures to Python/R, DATA steps to pandas/tidyverse
+> Smooth transition from SAS to modern open source tools
 
 ---
 
 <!-- Demo 5: Cross-Platform Workflow -->
-## Demo 5: Integrated Monitoring Platform
+## Demo 5: Integrated Platform
 
 ![bg left:33%](./img/zone-1.png)
 
 **End-to-End Data Science Workflow**
 
 - **VS Code** for development and debugging
-- **JupyterLab** for interactive analysis and notebook sharing
-- **RStudio** for statistical computing and distribution analysis
+- **JupyterLab** for interactive analysis and sharing
+- **RStudio** for statistical computing and analysis
 - **Shared data** across all platforms with Git integration
-- **Automated pipelines** from data collection to executive reporting
-- **Scientific visualization** with publication-quality plots
+- **Automated pipelines** from data to executive reporting
 
 > Work in your preferred environment without data silos
 
@@ -189,34 +179,16 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 <!-- Demo 6: AI-Assisted Development -->
 ## Demo 6: AI-Assisted Coding
-*Proof of Concept*
 
 ![bg left:33%](./img/zone-10.png)
 
 **Continue VS Code Extension with Ollama**
 
-- **Local AI models** running on GPU-accelerated infrastructure
+- **Local AI models** running on GPU infrastructure
 - **Code completion** and generation in real-time
 - **Protected B compliant** - no data leaves the environment
 - **Multi-language support** Python, R, SAS, Julia
-
-> *Currently in proof of concept stage*
-
----
-
-<!-- AI Capabilities -->
-## AI-Powered Development Features
-*Proof of Concept*
-
-![bg left:33%](./img/zone-9.png)
-
-**What Continue + Ollama Enables:**
-
-- **Smart code completion** with context awareness
-- **Documentation generation** for functions and classes
-- **Bug detection and fixes** with explanations
-- **Code refactoring suggestions** for better performance
-- **Code translation**: From SAS to Open Source
+- **Proof of concept** stage with promising results
 
 > *Your Protected B data stays secure*
 
@@ -227,7 +199,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-1.png)
 
-**Built on Enterprise-Grade Stack**
+**Enterprise-Grade Stack**
 
 - **Kubernetes** for container orchestration at scale
 - **Kubeflow** for end-to-end ML workflows
@@ -236,7 +208,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Multi-language runtime** support
 - **GPU acceleration** for AI workloads
 
-> The same platform that powers modern tech companies, tailored for government security needs.
+> Modern tech companies' platforms, tailored for government security
 
 ---
 
@@ -254,7 +226,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **AI model integration** - advancing from proof of concept
 - **Multi-variate anomaly detection** and clustering analysis
 
-> We're building the future of data science at StatCan
+> Building the future of data science at StatCan
 
 ---
 
@@ -270,7 +242,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - Migrate your SAS workflows gradually
 - Deploy production CronJobs
 - Build interactive dashboards
-- Talk to us about AI-assisted development
+- Talk to us about AI development
 
 > The platform is ready. The community is growing.
 > Your data science journey starts here.
@@ -288,6 +260,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Documentation**: Comprehensive guides available
 - **Training**: Regular workshops and office hours
 - **Support**: Zone team support channel
+- **Community**: Active user forums and collaboration
 
 > We're here to help you succeed in The Zone.
 > Reach out anytime!
