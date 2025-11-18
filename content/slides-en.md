@@ -47,8 +47,8 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
-- **CronJobs** for scheduled production workloads
-- **VS Code** with AI-assisted development
+- **CronJobs** for scheduled production workloads and pipelines
+- **VS Code** with AI-assisted development in the works
 - **Portable** architecture running on Azure AKS
 
 > The secure, modern platform for StatCan's data science needs.
@@ -62,9 +62,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Significant Growth & Stabilization**
 
-- **2,500+ onboarded users** (up from 2,200 in August 2025)
+- **2,500+ onboarded users** (300 more since August 2025)
 - **290+ daily notebook sessions** (more than double since August 2025)
-- **Production CronJobs** running critical workflows
+- **Production CronJobs** capable of running critical workflows
 - **Platform hardening** for enhanced stability and performance
 - **AI Coding** - Proof of concept development underway
 
@@ -79,91 +79,29 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ### Live Platform Tour
 
-1. **Kubeflow Interface** - Creating notebook servers and attaching volumes
-2. **Interactive Workflows** - Statistical analysis & visualization  
-3. **Cross-Language Integration** - R and Python interoperability
-4. **SAS Coexistence** - Migration tools and side-by-side execution
-5. **Multi-Platform Experience** - VS Code, JupyterLab, and RStudio integration
+- Notebook creation
+- A tour of the interface
+- Simple Python, R, SAS demos
 
-> All environments, unified platform.
-
----
-
-<!-- Production CronJobs Demo -->
 ## Production CronJobs: Anomaly Monitoring System
 
-![bg left:33%](./img/zone-8.png)
-
-**Enterprise Automation Pipeline**
-
-1. [Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)
-   - Generates synthetic data with statistical anomaly detection
-   - Updates dashboard repository every minute
-
-2. [Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)
-   - Pulls monitoring data and generates interactive dashboards
-   - Creates academic-grade statistical reports
-
-3. [Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)
-   - Analyzes detected anomalies with distribution comparisons
-   - Produces comprehensive situation reports
-
-> From data generation to executive reporting - fully automated.
+- Anomaly detection system using CronJobs and GitOps
+- Dashboarding done with Gitlab README.md files
 
 ---
 
-<!-- Demo 1: Anomaly Monitoring -->
-## Anomaly Monitoring System
+<!-- Live Demos -->
+## Platform Overview
 
 ![bg left:33%](./img/zone-8.png)
 
-**Enterprise-Grade Statistical Monitoring**
+### Live Platform Tour
 
-- **Kubernetes-native scheduling** with automatic retries and error handling
-- **R and Python integration** for advanced statistical analysis
-- **Automated reporting** with academic-quality visualizations
-- **GitOps workflow** with automatic dashboard updates
-- **Distributed architecture** spanning multiple repositories
+1. **Kubeflow Interface** - Creating notebook servers and attaching volumes
+1. **Cross-Language Integration** - R, Python, SAS interoperability
+1. **Multi-Platform Experience** - VS Code, JupyterLab, and RStudio integration
 
-> Production-grade statistical monitoring at scale.
-
----
-
-<!-- Demo 2: Statistical Dashboards -->
-## Statistical Dashboards
-
-![bg left:33%](./img/zone-9.png)
-
-**Professional Data Visualization**
-
-- **Distribution analysis** with Earth Mover's Distance calculations
-- **Interactive anomaly explorer** providing statistical context
-- **Academic-grade reporting** with comprehensive analysis
-- **Real-time data updates** with automatic refresh capabilities
-- **Executive summary views** highlighting key operational metrics
-
-> Transform complex statistical insights into actionable intelligence.
-
----
-
-<!-- Demo 3: R and Python Integration -->
-## R and Python Integration
-
-![bg left:33%](./img/zone-3.png)
-
-**Optimal Tool Selection**
-
-**R for Statistical Analysis:**
-- Advanced distribution fitting with multiple theoretical models
-- Earth Mover's Distance calculations for distribution comparison
-- Comprehensive statistical testing capabilities
-
-**Python for Engineering:**
-- Professional visualizations with Matplotlib and Seaborn
-- Automated report generation with markdown formatting
-- Git integration for workflow automation
-
-> Leveraging the strengths of each ecosystem.
+> All environments, unified platform.
 
 ---
 
@@ -177,8 +115,6 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Native SAS execution** alongside Python and R
 - **Gradual migration path** preserving existing investments
 - **Side-by-side code comparison** ensuring result validation
-- **Automated conversion tools** for common SAS patterns
-- **Expert support** for SAS-to-open-source translation
 
 > Modern capabilities without disrupting legacy workflows.
 
@@ -194,8 +130,6 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **VS Code** for development, debugging, and AI-assisted coding
 - **JupyterLab** for interactive analysis and notebook sharing
 - **RStudio** for statistical computing and specialized analysis
-- **Shared data ecosystem** with Git integration across environments
-- **Automated pipelines** transforming raw data into executive insights
 
 > Your preferred tools, seamlessly integrated.
 
@@ -214,7 +148,50 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Multi-language support** for Python, R, SAS, and Julia
 - **Active proof of concept** with promising early results
 
-> *Enhancing developer productivity while maintaining data security.*
+> Enhancing developer productivity while maintaining data security.
+
+---
+
+---
+
+<!-- Production CronJobs Demo -->
+## Production CronJobs: Anomaly Monitoring System
+
+![bg left:33%](./img/zone-8.png)
+
+**Enterprise Automation Pipeline**
+
+#### [Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)
+   
+- Generates synthetic data with statistical anomalies
+
+#### [Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)
+   
+- Pulls anomaly data and generates a dashboard
+
+#### [Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)
+   
+- Analyzes detected anomalies with distribution comparisons
+- Produces comprehensive situation reports
+
+> From data generation to executive reporting - fully automated.
+
+---
+
+<!-- Demo 1: Anomaly Monitoring -->
+## Anomaly Monitoring System
+
+![bg left:33%](./img/zone-8.png)
+
+**Enterprise-Grade Statistical Monitoring**
+
+- **Kubernetes-native scheduling** with automatic retries and error handling
+- **R and Python integration** use either language, in fact, any language
+- **Automated reporting** with academic-quality visualizations
+- **GitOps workflow** with automatic dashboard updates
+- **Distributed architecture** spanning multiple repositories
+
+> Production-grade statistical monitoring that can scale.
 
 ---
 
@@ -231,35 +208,18 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 > Building the next generation of data science capabilities at StatCan.
 
----
-
 <!-- Call to Action -->
-## Join The Zone
+## Enter The Zone
 
 ![bg left:33%](./img/zone-10.png)
 
-**Begin Your Data Science Journey**
+You are invited to:
 
-- **Access the platform**: https://zone.statcan.ca
-- **Migrate gradually**: Start with non-critical SAS workflows
-- **Deploy automation**: Implement production CronJobs
-- **Collaborate**: Join active user forums and contribute to open source
+- Access the platform: https://zone.statcan.ca
+- Attend training and workshops
+- Help shape the future of data science at StatCan
+- Host the next Zone in your department
 
-> The Zone is more than a platform. It's a movement toward open, sovereign data science.
-
----
-
-<!-- Contact & Resources -->
-## Resources & Support
-
-![bg left:33%](./img/zone-10.png)
-
-**We're Here to Help**
-
-- **Platform access**: https://zone.statcan.ca
-- **Documentation**: Comprehensive guides and tutorials
-- **Training schedule**: Weekly workshops and monthly deep-dives
-- **Support channel**: Dedicated Zone team assistance
-- **Community forums**: Peer collaboration and knowledge sharing
-
-> Contact us today to schedule your onboarding session.
+<blockquote>
+The Zone is a movement toward openness, sovereignty, and shared capability.
+</blockquote>
