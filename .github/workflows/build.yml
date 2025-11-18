@@ -1,9 +1,9 @@
 name: Build Marp Slides PDFs
 on:
   push:
-    branches: [fall-2025]
+    branches: [beta]
   pull_request:
-    branches: [fall-2025]
+    branches: [beta]
 permissions:
   contents: read
 jobs:
