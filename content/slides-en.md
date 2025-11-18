@@ -47,7 +47,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
 - **CronJobs** for scheduled production workloads
-- **VS Code** with AI-assisted development
+- **VS Code** with AI-assisted coding in development
 - **Portable** runs on any cloud, currently running on Azure
 
 > The secure, modern platform for StatCan's data science needs.
@@ -251,25 +251,6 @@ This CronJob checks the Anomaly Monitoring Dashboard for new anomalies and if pr
 
 ---
 
-<!-- Call to Action -->
-## Join The Zone
-
-![bg left:33%](./img/zone-10.png)
-
-**You're Invited To:**
-
-- Access the platform: https://zone.statcan.ca  
-- Watch our demo videos
-- Migrate your SAS workflows gradually
-- Deploy production CronJobs
-- Build interactive dashboards
-- Talk to us about AI development
-
-> The platform is ready. The community is growing.
-> Your data science journey starts here.
-
----
-
 <!-- Contact & Resources -->
 ## Get Started Today
 
@@ -313,7 +294,8 @@ Deployed where you need it.
 You are invited to:
 
 - Access the platform: https://zone.statcan.ca
-- Attend training and workshops
+- Migrate your SAS workflows gradually
+- Deploy production CronJobs
 - Help shape the future of data science at StatCan
 - Host the next Zone in your department
 
