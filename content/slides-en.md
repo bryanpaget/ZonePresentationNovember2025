@@ -91,6 +91,8 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 <!-- Production CronJobs Demo -->
 ## Production CronJobs: Anomaly Monitoring System
 
+![bg left:33%](./img/zone-8.png)
+
 **Enterprise Automation Pipeline**
 
 1. [Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)
