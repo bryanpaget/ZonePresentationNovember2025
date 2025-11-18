@@ -19,6 +19,7 @@
 
 <!-- Who We Are, Fall 2025 -->
 ## The Zone Team
+#### Fall 2025
 
 ![bg left:33%](./img/zone-0.png)
 
