@@ -79,6 +79,11 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ### Live Demonstrations
 
 1. **Production CronJobs** - Anomaly monitoring & reporting
+
+- https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads
+- https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard
+- https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main
+
 2. **Interactive Dashboards** - Statistical analysis & visualization  
 3. **Cross-Language Workflows** - R and Python integration
 4. **SAS Integration** - Coexistence and migration tools
