@@ -61,7 +61,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Significant Growth & Stabilization**
 
-- **2,500+ onboarded users** (continuing to grow)
+- **2,500+ onboarded users** (up from 2,200 in August 2025)
 - **290+ daily notebook sessions** (more than double since August 2025!)
 - **Production CronJobs** running critical workflows
 - **Platform hardening** for enhanced stability and performance
@@ -264,3 +264,40 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 > We're here to help you succeed in The Zone.
 > Reach out anytime!
+
+<!-- Portability & Federated Future -->
+## A Federated Future
+
+![bg left:33%](./img/zone-10.png)
+
+The Zone is open source and designed to scale. It can be deployed by:
+
+- Other teams at StatCan
+- Federal departments
+- Provincial and municipal governments
+
+<blockquote>
+Same foundation. Same security.
+<br>
+Deployed where you need it.
+</blockquote>
+
+---
+
+<!-- Call to Action -->
+## Enter The Zone
+
+![bg left:33%](./img/zone-10.png)
+
+You are invited to:
+
+- Access the platform: https://zone.statcan.ca
+- Attend training and workshops
+- Help shape the future of data science at StatCan
+- Host the next Zone in your department
+
+<blockquote>
+The Zone is a movement toward openness, sovereignty,
+<br>
+and shared capability.
+</blockquote>
