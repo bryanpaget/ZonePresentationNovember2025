@@ -19,7 +19,6 @@
 
 <!-- Who We Are, Fall 2025 -->
 ## The Zone Team
-#### Fall 2025
 
 ![bg left:33%](./img/zone-0.png)
 
@@ -47,7 +46,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
-- **CronJobs** for scheduled production workloads and pipelines
+- **CronJobs** for scheduled production workloads
 - **VS Code** with AI-assisted development in the works
 - **Portable** architecture running on Azure AKS
 
@@ -77,13 +76,13 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-8.png)
 
-### Live Platform Tour
+**Live Platform Tour**
 
 - Notebook creation
 - A tour of the interface
 - Simple Python, R, SAS demos
 
-## Production CronJobs: Anomaly Monitoring System
+**Production CronJobs: Anomaly Monitoring System**
 
 - Anomaly detection system using CronJobs and GitOps
 - Dashboarding done with Gitlab README.md files
@@ -95,9 +94,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-8.png)
 
-### Live Platform Tour
+**Live Platform Tour**
 
-1. **Kubeflow Interface** - Creating notebook servers and attaching volumes
+1. **Kubeflow Interface** - Creating notebook servers and attaching volumes, reusing volumes
 1. **Cross-Language Integration** - R, Python, SAS interoperability
 1. **Multi-Platform Experience** - VS Code, JupyterLab, and RStudio integration
 
@@ -152,8 +151,6 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ---
 
----
-
 <!-- Production CronJobs Demo -->
 ## Production CronJobs: Anomaly Monitoring System
 
@@ -161,15 +158,15 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Enterprise Automation Pipeline**
 
-#### [Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)
+**[Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**
    
 - Generates synthetic data with statistical anomalies
 
-#### [Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)
+**[Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**
    
 - Pulls anomaly data and generates a dashboard
 
-#### [Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)
+**[Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**
    
 - Analyzes detected anomalies with distribution comparisons
 - Produces comprehensive situation reports
@@ -207,6 +204,8 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **AI models** advancing from proof of concept to production
 
 > Building the next generation of data science capabilities at StatCan.
+
+---
 
 <!-- Call to Action -->
 ## Enter The Zone
