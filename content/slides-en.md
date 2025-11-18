@@ -76,20 +76,36 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-8.png)
 
-### Live Demonstrations
+### Live Demo: Tour of the Platform
 
-1. **Production CronJobs** - Anomaly monitoring & reporting
+- **Kubeflow** - Making new notebook servers, attaching volumes
+- **Interactive Dashboards** - Statistical analysis & visualization  
+- **Cross-Language Workflows** - R and Python integration
+- **SAS Integration** - Coexistence and migration tools
+- **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
 
-- https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads
-- https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard
-- https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main
+---
 
-2. **Interactive Dashboards** - Statistical analysis & visualization  
-3. **Cross-Language Workflows** - R and Python integration
-4. **SAS Integration** - Coexistence and migration tools
-5. **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
+<!-- Live Demos -->
+## Platform Capabilities
 
-> From batch processing to interactive analysis - all in one platform.
+### Live Demo: Production CronJobs
+
+**Anomaly Monitoring & Reporting**
+
+1. [Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)
+
+This CronJob generates data points that are stored in this git repo:
+
+2. [Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)
+
+This CronJob pulls the previous repo, checks the logs for anomalies, if there are anomalies, it updates it's dashboard.
+
+3. [Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)
+
+This CronJob checks the Anomaly Monitoring Dashboard for new anomalies and if present writes a report about the new anomaly.
+
+> From automation to interactive analysis - all in one platform.
 
 ---
 
