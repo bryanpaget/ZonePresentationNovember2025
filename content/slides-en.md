@@ -47,7 +47,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
 - **CronJobs** for scheduled production workloads
-- **VS Code** with AI-assisted development in the works
+- **VS Code** with AI-assisted coding in the works
 - **Portable** architecture running on Azure AKS
 
 > The secure, modern platform for StatCan's data science needs.
@@ -65,32 +65,32 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **290+ daily notebook sessions** (more than double since August 2025)
 - **Production CronJobs** capable of running critical workflows
 - **Platform hardening** for enhanced stability and performance
-- **AI Coding** - Proof of concept development underway
+- **AI-Assisted Coding** - Proof of concept completed
 
 > We're evolving from rapid growth to production-ready maturity.
 
 ---
 
 <!-- Live Demos -->
-## Platform Overview
+## The Zone
 
 ![bg left:33%](./img/zone-8.png)
 
 **Live Platform Tour**
 
-- Notebook creation
-- A tour of the interface
-- Simple Python, R, SAS demos
+- Notebook server creation
+- JupyterLab, VS Code, RStudio
+- Python, R, SAS
 
 **Production CronJobs: Anomaly Monitoring System**
 
-- Anomaly detection system using CronJobs and GitOps
+- Anomaly detection system using CronJobs, GitOps and a local LLM
 - Dashboarding done with Gitlab README.md files
 
 ---
 
 <!-- Live Demos -->
-## Platform Overview
+## The Zone
 
 ![bg left:33%](./img/zone-8.png)
 
@@ -145,18 +145,16 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Context-aware code completion** and generation in real-time
 - **Protected B compliant** architecture with zero data exfiltration
 - **Multi-language support** for Python, R, SAS, and Julia
-- **Active proof of concept** with promising early results
+- **Proof of concept** with promising early results
 
 > Enhancing developer productivity while maintaining data security.
 
 ---
 
 <!-- Production CronJobs Demo -->
-## Production CronJobs
+## Anomaly Monitoring System
 
 ![bg left:33%](./img/zone-8.png)
-
-**Anomaly Monitoring System**
 
 **[Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**
    
@@ -164,31 +162,14 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **[Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**
    
-- Pulls anomaly data and generates a dashboard
+- Pulls anomaly data from Intelligent Data Monitor and generates a dashboard
 
 **[Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**
    
-- Analyzes detected anomalies with distribution comparisons
-- Produces comprehensive situation reports
+- Analyzes detected anomalies using an LLM
+- Produces basic reports
 
-> From data generation to executive reporting - fully automated.
-
----
-
-<!-- Demo 1: Anomaly Monitoring -->
-## Anomaly Monitoring System
-
-![bg left:33%](./img/zone-8.png)
-
-**Enterprise-Grade Statistical Monitoring**
-
-- **Kubernetes-native scheduling** with automatic retries and error handling
-- **R and Python integration** use either language, in fact, any language
-- **Automated reporting** with academic-quality visualizations
-- **GitOps workflow** with automatic dashboard updates
-- **Distributed architecture** spanning multiple repositories
-
-> Production-grade statistical monitoring that can scale.
+> From data collection to AI-assisted reporting - fully automated.
 
 ---
 
@@ -199,9 +180,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Strategic Evolution**
 
-- **Kubeflow Pipelines** for complex, reproducible workflows
-- **Apache Spark** integration for large-scale data processing
-- **AI models** advancing from proof of concept to production
+- **Kubeflow Pipelines** for complex workflows
+- **Apache Spark** integration for large-scale data processing, we already have the Python and R libraries
+- **AI models** advancing from proof of concept to larger, more useful models
 
 > Building the next generation of data science capabilities at StatCan.
 
