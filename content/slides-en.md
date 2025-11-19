@@ -46,7 +46,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
-- **CronJobs** for scheduled production workloads
+- **CronJobs** for scheduled workloads
 - **VS Code** with AI-assisted coding in the works
 - **Portable** architecture running on Azure AKS
 
@@ -63,9 +63,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 - **2,500+ onboarded users** (300 more since August 2025)
 - **290+ daily notebook sessions** (more than double since August 2025)
-- **Production CronJobs** capable of running critical workflows
+- **CronJobs** capable of running critical workflows
 - **Platform hardening** for enhanced stability and performance
-- **AI-Assisted Coding** - Proof of concept completed
+- **AI-Assisted Coding** Proof of concept completed
 
 > We're evolving from rapid growth to production-ready maturity.
 
@@ -82,10 +82,10 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - JupyterLab, VS Code, RStudio
 - Python, R, SAS
 
-**Production CronJobs: Anomaly Monitoring System**
+**CronJobs: Anomaly Monitoring System**
 
-- Anomaly detection system using CronJobs, GitOps and a local LLM
-- Dashboarding done with Gitlab README.md files
+- Anomaly detection system using CronJobs, GitOps and a small LLM hosted by The Zone
+- Dashboarding with Gitlab README.md files
 
 ---
 
@@ -96,9 +96,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Live Platform Tour**
 
-1. **Kubeflow Interface** - Creating notebook servers and attaching volumes, reusing volumes
-1. **Cross-Language Integration** - R, Python, SAS interoperability
-1. **Multi-Platform Experience** - VS Code, JupyterLab, and RStudio integration
+1. **Kubeflow Interface** Creating notebook servers and attaching volumes, reusing volumes
+1. **Cross-Language Integration** R, Python, SAS interoperability
+1. **Multi-Platform Experience** VS Code, JupyterLab, and RStudio integration
 
 > All environments, unified platform.
 
@@ -151,7 +151,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ---
 
-<!-- Production CronJobs Demo -->
+<!-- CronJobs Demo -->
 ## Anomaly Monitoring System
 
 ![bg left:33%](./img/zone-8.png)
@@ -169,7 +169,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - Analyzes detected anomalies using an LLM
 - Produces basic reports
 
-> From data collection to AI-assisted reporting - fully automated.
+> From data collection to AI-assisted reporting, fully automated.
 
 ---
 
