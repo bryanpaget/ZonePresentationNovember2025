@@ -55,17 +55,22 @@ jobs:
           path: the-zone-demo-fall-2025.pdf
           retention-days: 30
 
-      - name: Create Git tag
-        run: |
-          TAG_NAME="v$(date +'%Y%m%d%H%M%S')"  # Use current timestamp as tag
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git tag $TAG_NAME
-          git push origin $TAG_NAME
-
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v1
         with:
-          files: the-zone-demo-fall-2025.pdf
+          tag_name: "v${{ github.run_number }}"  # Use GitHub run number for the tag
+          name: "Presentation v${{ github.run_number }}"  # Dynamic name based on the run number
+          body: |
+            # Zone Presentation
+            
+            This release contains the presentation materials for the Zone demo.
+            
+            ## What's Included
+            - `slides-en.pdf`: English version of the presentation
+            
+            ## Additional Information
+            - This release is generated using Marp CLI and contains the slides as a PDF file.
+          files: |
+            the-zone-demo-fall-2025.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
