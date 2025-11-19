@@ -1,43 +1,47 @@
 name: Build Marp Slides PDFs
+
 on:
+  # Run build on every push to fall-2025 (for validation & artifact)
   push:
     branches: [fall-2025]
+    tags: []  # explicitly exclude tags here if you want separate logic
   pull_request:
     branches: [fall-2025]
+  # ALSO run on tag pushes to create releases
+  push:
+    tags: ["v*"]  # only tags like v1.0, v2025.11, etc.
+
 permissions:
-  contents: read
-  id-token: write  # Required to upload to GitHub releases
+  contents: write  # Needed to create releases
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          
+
       - name: Install Marp CLI
         run: npm install -g @marp-team/marp-cli
-          
+
       - name: Create combined markdown files
         run: |
-          # Create temp directory
           mkdir -p temp
-          # Combine header + content for English
           cat config/header.md content/slides-en.md > temp/slides-en-combined.md
-          
+
       - name: Copy images to temp directory
         run: |
-          # Copy img directory to temp for PDF generation
           cp -r img temp/
-          
+
       - name: Build PDF
         run: |
           marp temp/slides-en-combined.md --pdf --output the-zone-demo-fall-2025.pdf --allow-local-files
-          
+
       - name: Verify PDF exists
         run: |
           if [ -f the-zone-demo-fall-2025.pdf ]; then
@@ -47,7 +51,7 @@ jobs:
             echo "PDF not built!"
             exit 1
           fi
-          
+
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
@@ -55,22 +59,22 @@ jobs:
           path: the-zone-demo-fall-2025.pdf
           retention-days: 30
 
+      # Only create a release if this run was triggered by a tag
       - name: Create GitHub Release and upload PDF
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: "v${{ github.run_number }}"  # Use GitHub run number for the tag
-          name: "Presentation v${{ github.run_number }}"  # Dynamic name based on the run number
+          files: the-zone-demo-fall-2025.pdf
           body: |
             # Zone Presentation
             
             This release contains the presentation materials for the Zone demo.
             
             ## What's Included
-            - `slides-en.pdf`: English version of the presentation
+            - `the-zone-demo-fall-2025.pdf`: English version of the presentation
             
-            ## Additional Information
-            - This release is generated using Marp CLI and contains the slides as a PDF file.
-          files: |
-            the-zone-demo-fall-2025.pdf
+            ## Built with
+            - Marp CLI
+            - GitHub Actions
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
