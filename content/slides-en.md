@@ -1,205 +1,160 @@
 <!-- Title Slide -->
 <!-- _class: lead -->
-# The Zone
-### A Modern Data Science Platform
-
+# The Zone  
+### A Modern Data Science Platform  
 #### For Statistics Canada
 
-<br>
-<br>
+<br>  
+<br>  
 
-## Fall 2025 Update
+## Fall 2025 Update  
 
-<br>
+<br>  
 
-###### *Brought to you by The Zone Team :heart:*
+###### *Brought to you by The Zone Team :heart:*  
 ![bg left:33%](./img/canada-1.png)
 
 ---
 
+<!-- Executive Summary -->
+## Executive Summary  
+
+![bg left:33%](./img/zone-1.png)
+
+- The Zone is now a **production-grade**, **Protected B-compliant** data science platform serving **2,500+ users**.  
+- Built on **open-source Kubeflow**, it supports **Python, R, SAS, Julia**, and soon AI-assisted development.  
+- Recent milestones: platform hardening, **CronJobs for automated workflows**, and a **successful AI coding PoC**.  
+- Designed for **scalability, reproducibility, and sovereignty**, aligning with StatCan's digital and data strategies.
+
+> A unified, secure environment where legacy and modern data science coexist.
+
+---
+
+<!-- Objectives -->
+## Strategic Objectives  
+
+![bg left:33%](./img/zone-0.png)
+
+1. **Modernize** StatCan’s analytical infrastructure while preserving legacy SAS workloads.  
+2. **Democratize access** to scalable, cloud-native tools across analytical communities.  
+3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.  
+4. **Enhance productivity** with AI-assisted coding—without compromising data security.  
+5. **Foster collaboration** via shared tooling, version control, and open-source principles.
+
+> Bridging stability and innovation.
+
+---
+
 <!-- Who We Are, Fall 2025 -->
-## The Zone Team
+## The Zone Team  
 
 ![bg left:33%](./img/zone-0.png)
 
 > Featuring Anray Liu from uOttawa!
 
-**Developers (IT-02):**
-- Wendy Gaultier
+**Developers (IT-02):**  
+- Wendy Gaultier  
 - Mathis Marcotte  
-- Bryan Paget
-- Souheil Yazji
+- Bryan Paget  
+- Souheil Yazji  
 
-**Team Lead (Acting IT-03):**
-- Jose Matsuda
+**Team Lead (Acting IT-03):**  
+- Jose Matsuda  
 
 ---
 
-<!-- What is The Zone? -->
-## What Is The Zone?
+<!-- What Is The Zone? -->
+## What Is The Zone?  
 
 ![bg left:33%](./img/zone-1.png)
 
-The Zone is an open source **Protected B data science platform** based on **Kubeflow**, designed to orchestrate notebooks, jobs, and machine learning workflows.
+The Zone is an open-source **Protected B data science platform** based on **Kubeflow**, designed to orchestrate notebooks, jobs, and machine learning workflows.
 
-**Featuring:**
+**Core Capabilities:**  
+- **JupyterLab**, **VS Code**, and **RStudio** with multi-language support (Python, R, SAS, Julia)  
+- **CronJobs** for scheduled, GitOps-driven workflows  
+- **Portable architecture** on Azure AKS  
+- **AI-assisted coding** (PoC complete)
 
-- **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
-- **Kubeflow** for scalable infrastructure
-- **CronJobs** for scheduled workloads
-- **VS Code** with AI-assisted coding in the works
-- **Portable** architecture running on Azure AKS
-
-> The secure, modern platform for StatCan's data science needs.
+> The secure, modern foundation for StatCan’s data science future.
 
 ---
 
 <!-- Platform Growth & Hardening -->
-## Platform Evolution
+## Platform Evolution  
 
 ![bg left:33%](./img/zone-5.png)
 
-**Significant Growth & Stabilization**
+**From Growth to Maturity**  
+- **2,500+ onboarded users** (+300 since August 2025)  
+- **290+ daily notebook sessions** (2× increase since August)  
+- **Platform hardening**: improved stability, performance, and resource efficiency  
+- **AI Coding PoC**: validated on CPU, zero-exfiltration infrastructure  
 
-- **2,500+ onboarded users** (300 more since August 2025)
-- **290+ daily notebook sessions** (more than double since August 2025)
-- **CronJobs** capable of running critical workflows
-- **Platform hardening** for enhanced stability and performance
-- **AI-Assisted Coding** Proof of concept completed
-
-> We're evolving from rapid growth to production-ready maturity.
+> Transitioning from experimental adoption to mission-critical operations.
 
 ---
 
-<!-- Live Demos -->
-## The Zone
+<!-- Unified Demos Slide -->
+## Live Platform Capabilities  
 
 ![bg left:33%](./img/zone-8.png)
 
-**Live Platform Tour**
+**A Unified Experience Across Tools & Languages**  
+1. **Multi-IDE Support**: JupyterLab, VS Code, RStudio  
+2. **Cross-Language Workflows**: Seamless R, Python, SAS interoperability  
+3. **Reusable Storage**: Persistent volumes across notebook servers  
+4. **SAS Coexistence**: Native execution alongside modern stacks for gradual migration  
+5. **AI Assistance**: Context-aware code generation (PoC stage)
 
-- Notebook server creation
-- JupyterLab, VS Code, RStudio
-- Python, R, SAS
-
-**CronJobs: Anomaly Monitoring System**
-
-- Anomaly detection system using CronJobs, GitOps and a small LLM hosted by The Zone
-- Dashboarding with Gitlab README.md files
-
----
-
-<!-- Live Demos -->
-## The Zone
-
-![bg left:33%](./img/zone-8.png)
-
-**Live Platform Tour**
-
-1. **Kubeflow Interface** Creating notebook servers and attaching volumes, reusing volumes
-1. **Cross-Language Integration** R, Python, SAS interoperability
-1. **Multi-Platform Experience** VS Code, JupyterLab, and RStudio integration
-
-> All environments, unified platform.
-
----
-
-<!-- Demo 4: SAS Coexistence -->
-## SAS Coexistence Strategy
-
-![bg left:33%](./img/zone-3.png)
-
-**Bridge to Modern Data Science**
-
-- **Native SAS execution** alongside Python and R
-- **Gradual migration path** preserving existing investments
-- **Side-by-side code comparison** ensuring result validation
-
-> Modern capabilities without disrupting legacy workflows.
-
----
-
-<!-- Demo 5: Cross-Platform Workflow -->
-## Cross-Platform Workflow
-
-![bg left:33%](./img/zone-1.png)
-
-**Unified Data Science Experience**
-
-- **VS Code** for development, debugging, and AI-assisted coding
-- **JupyterLab** for interactive analysis and notebook sharing
-- **RStudio** for statistical computing and specialized analysis
-
-> Your preferred tools, seamlessly integrated.
-
----
-
-<!-- Demo 6: AI-Assisted Development -->
-## AI-Assisted Coding
-
-![bg left:33%](./img/zone-10.png)
-
-**Continue VS Code Extension with Ollama**
-
-- **Local AI models** running on GPU-accelerated infrastructure
-- **Context-aware code completion** and generation in real-time
-- **Protected B compliant** architecture with zero data exfiltration
-- **Multi-language support** for Python, R, SAS, and Julia
-- **Proof of concept** with promising early results
-
-> Enhancing developer productivity while maintaining data security.
+> One platform. Your preferred tools.
 
 ---
 
 <!-- CronJobs Demo -->
-## Anomaly Monitoring System
+## Anomaly Monitoring System  
 
 ![bg left:33%](./img/zone-8.png)
 
-**[Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**
-   
-- Generates synthetic data with statistical anomalies
+**[Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
+- Generates synthetic data with statistical anomalies  
 
-**[Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**
-   
-- Pulls anomaly data from Intelligent Data Monitor and generates a dashboard
+**[Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
+- Visualizes anomalies via GitLab README.md  
 
-**[Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**
-   
-- Analyzes detected anomalies using an LLM
-- Produces basic reports
+**[Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
+- Uses a small LLM to analyze anomalies and draft reports  
 
-> From data collection to AI-assisted reporting, fully automated.
+> End-to-end automation: from detection to AI-assisted insight.
 
 ---
 
 <!-- Future Roadmap -->
-## Roadmap: What's Next?
+## Roadmap: What’s Next?  
 
 ![bg left:33%](./img/zone-9.png)
 
-**Strategic Evolution**
+**Strategic Evolution**  
+- **Kubeflow Pipelines** for complex, versioned workflows  
+- **Apache Spark** integration (Python/R libraries ready)  
+- **Scaled AI models**: moving beyond PoC to operational AI assistance  
+- **Expanded training & community enablement**
 
-- **Kubeflow Pipelines** for complex workflows
-- **Apache Spark** integration for large-scale data processing, we already have the Python and R libraries
-- **AI models** advancing from proof of concept to larger, more useful models
-
-> Building the next generation of data science capabilities at StatCan.
+> Building StatCan’s next-generation data science fabric.
 
 ---
 
 <!-- Call to Action -->
-## Enter The Zone
+## Enter The Zone  
 
 ![bg left:33%](./img/zone-10.png)
 
-You are invited to:
+You are invited to:  
+- Access the platform: https://zone.statcan.ca  
+- Attend training and workshops  
+- Help shape the future of data science at StatCan  
+- Host the next Zone in your department  
 
-- Access the platform: https://zone.statcan.ca
-- Attend training and workshops
-- Help shape the future of data science at StatCan
-- Host the next Zone in your department
-
-<blockquote>
-The Zone is a movement toward openness, sovereignty, and shared capability.
+<blockquote>  
+The Zone is a movement toward openness, sovereignty, and shared capability.  
 </blockquote>
