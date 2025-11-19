@@ -6,7 +6,7 @@ on:
     branches: [fall-2025]
 permissions:
   contents: read
-  id-token: write
+  id-token: write  # Required to upload to GitHub releases
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -53,7 +53,15 @@ jobs:
         with:
           name: zone-demo-pdf
           path: the-zone-demo-fall-2025.pdf
-          retention-days: 15
+          retention-days: 30
+
+      - name: Create Git tag
+        run: |
+          TAG_NAME="v$(date +'%Y%m%d%H%M%S')"  # Use current timestamp as tag
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
 
       - name: Create GitHub Release and upload PDF
         uses: softprops/action-gh-release@v1
