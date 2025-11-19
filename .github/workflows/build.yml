@@ -1,18 +1,14 @@
 name: Build Marp Slides PDFs
 
 on:
-  # Run build on every push to fall-2025 (for validation & artifact)
   push:
     branches: [fall-2025]
-    tags: []  # explicitly exclude tags here if you want separate logic
+    tags: ["v*"]
   pull_request:
     branches: [fall-2025]
-  # ALSO run on tag pushes to create releases
-  push:
-    tags: ["v*"]  # only tags like v1.0, v2025.11, etc.
 
 permissions:
-  contents: write  # Needed to create releases
+  contents: write
 
 jobs:
   build:
@@ -59,7 +55,6 @@ jobs:
           path: the-zone-demo-fall-2025.pdf
           retention-days: 30
 
-      # Only create a release if this run was triggered by a tag
       - name: Create GitHub Release and upload PDF
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
@@ -68,13 +63,11 @@ jobs:
           body: |
             # Zone Presentation
             
-            This release contains the presentation materials for the Zone demo.
+            Official PDF of The Zone demo presentation.
             
-            ## What's Included
-            - `the-zone-demo-fall-2025.pdf`: English version of the presentation
+            ## Included
+            - `the-zone-demo-fall-2025.pdf`
             
-            ## Built with
-            - Marp CLI
-            - GitHub Actions
+            Built with Marp CLI via GitHub Actions.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
