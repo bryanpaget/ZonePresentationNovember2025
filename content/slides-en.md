@@ -47,8 +47,8 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **JupyterLab** supporting Python, R, SAS, Julia, JavaScript
 - **Kubeflow** for scalable infrastructure
 - **CronJobs** for scheduled production workloads
-- **VS Code** with AI-assisted coding in development
-- **Portable** runs on any cloud, currently running on Azure
+- **VS Code** with AI-assisted development in the works
+- **Portable** architecture running on Azure AKS
 
 > The secure, modern platform for StatCan's data science needs.
 
@@ -61,228 +61,149 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 **Significant Growth & Stabilization**
 
-- **2,500+ onboarded users** (up from 2,200 in August 2025)
-- **290+ daily notebook sessions** (more than double since August 2025!)
-- **Production CronJobs** running critical workflows
+- **2,500+ onboarded users** (300 more since August 2025)
+- **290+ daily notebook sessions** (more than double since August 2025)
+- **Production CronJobs** capable of running critical workflows
 - **Platform hardening** for enhanced stability and performance
-- **AI Coding** - Proof of concept work started
+- **AI Coding** - Proof of concept development underway
 
-> We're not just growing - we're maturing into a production-ready platform.
-
----
-
-<!-- Live Demos -->
-## Platform Capabilities
-
-![bg left:33%](./img/zone-8.png)
-
-### Live Demo: Tour of the Platform
-
-- **Kubeflow** - Making new notebook servers, attaching volumes
-- **Interactive Dashboards** - Statistical analysis & visualization  
-- **Cross-Language Workflows** - R and Python integration
-- **SAS Integration** - Coexistence and migration tools
-- **Cross-Platform Workflow** - VS Code, JupyterLab, RStudio
+> We're evolving from rapid growth to production-ready maturity.
 
 ---
 
 <!-- Live Demos -->
-## Platform Capabilities
-
-### Live Demo: Production CronJobs
-
-**Anomaly Monitoring & Reporting**
-
-1. [Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)
-
-This CronJob generates data points that are stored in this git repo:
-
-2. [Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)
-
-This CronJob pulls the previous repo, checks the logs for anomalies, if there are anomalies, it updates it's dashboard.
-
-3. [Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)
-
-This CronJob checks the Anomaly Monitoring Dashboard for new anomalies and if present writes a report about the new anomaly.
-
-> From automation to interactive analysis - all in one platform.
-
----
-
-<!-- Demo 1: CronJobs -->
-## Demo 1: Anomaly Monitoring
+## Platform Overview
 
 ![bg left:33%](./img/zone-8.png)
 
-**Enterprise-Grade Anomaly Detection**
+**Live Platform Tour**
 
-- **Kubernetes-native scheduling** with automatic retries
-- **R and Python integration** for statistical analysis
-- **Automated reporting** with academic-quality reports
-- **GitOps workflow** with automatic dashboard updates
-- **Distributed architecture** across multiple repositories
+- Notebook creation
+- A tour of the interface
+- Simple Python, R, SAS demos
 
-> Reliable automation for production statistical monitoring
+**Production CronJobs: Anomaly Monitoring System**
 
----
-
-<!-- Demo 2: Interactive Dashboards -->
-## Demo 2: Statistical Dashboards
-
-![bg left:33%](./img/zone-9.png)
-
-**Professional Statistical Visualizations**
-
-- **Distribution analysis** with Earth Mover's Distance
-- **Interactive anomaly explorer** with statistical context
-- **Academic-grade reporting** with comprehensive analysis
-- **Real-time data updates** with automatic refresh
-- **Executive summary views** with key operational metrics
-
-> Create professional statistical reports without leaving the platform
+- Anomaly detection system using CronJobs and GitOps
+- Dashboarding done with Gitlab README.md files
 
 ---
 
-<!-- Demo 3: Cross-Language Workflows -->
-## Demo 3: R and Python Integration
+<!-- Live Demos -->
+## Platform Overview
+
+![bg left:33%](./img/zone-8.png)
+
+**Live Platform Tour**
+
+1. **Kubeflow Interface** - Creating notebook servers and attaching volumes, reusing volumes
+1. **Cross-Language Integration** - R, Python, SAS interoperability
+1. **Multi-Platform Experience** - VS Code, JupyterLab, and RStudio integration
+
+> All environments, unified platform.
+
+---
+
+<!-- Demo 4: SAS Coexistence -->
+## SAS Coexistence Strategy
 
 ![bg left:33%](./img/zone-3.png)
 
-**Seamless Language Interoperability**
-
-**R for Statistical Analysis:**
-- **Distribution fitting** with multiple theoretical models
-- **Earth Mover's Distance** calculations for comparison
-- **Statistical tests** and probability density functions
-
-**Python for Visualization & Automation:**
-- **Matplotlib & Seaborn** for professional visualizations
-- **Automated report generation** with markdown formatting
-- **Git integration** for workflow automation
-
-> Best tools for each task, working together seamlessly
-
----
-
-<!-- Demo 4: SAS Integration -->
-## Demo 4: SAS Coexistence
-
-![bg left:33%](./img/zone-3.png)
-
-**Bridging Traditional and Modern**
+**Bridge to Modern Data Science**
 
 - **Native SAS execution** alongside Python and R
-- **Gradual migration path** for existing SAS workflows
-- **Side-by-side code comparison** and validation
-- **Automated conversion tools** for common SAS patterns
-- **SAS procedures to Python/R** translation support
+- **Gradual migration path** preserving existing investments
+- **Side-by-side code comparison** ensuring result validation
 
-> Smooth transition from SAS to modern open source tools
+> Modern capabilities without disrupting legacy workflows.
 
 ---
 
 <!-- Demo 5: Cross-Platform Workflow -->
-## Demo 5: Integrated Platform
+## Cross-Platform Workflow
 
 ![bg left:33%](./img/zone-1.png)
 
-**End-to-End Data Science Workflow**
+**Unified Data Science Experience**
 
-- **VS Code** for development and debugging
-- **JupyterLab** for interactive analysis and sharing
-- **RStudio** for statistical computing and analysis
-- **Shared data** across all platforms with Git integration
-- **Automated pipelines** from data to executive reporting
+- **VS Code** for development, debugging, and AI-assisted coding
+- **JupyterLab** for interactive analysis and notebook sharing
+- **RStudio** for statistical computing and specialized analysis
 
-> Work in your preferred environment without data silos
+> Your preferred tools, seamlessly integrated.
 
 ---
 
 <!-- Demo 6: AI-Assisted Development -->
-## Demo 6: AI-Assisted Coding
+## AI-Assisted Coding
 
 ![bg left:33%](./img/zone-10.png)
 
 **Continue VS Code Extension with Ollama**
 
-- **Local AI models** running on GPU infrastructure
-- **Code completion** and generation in real-time
-- **Protected B compliant** - no data leaves the environment
-- **Multi-language support** Python, R, SAS, Julia
-- **Proof of concept** stage with promising results
+- **Local AI models** running on GPU-accelerated infrastructure
+- **Context-aware code completion** and generation in real-time
+- **Protected B compliant** architecture with zero data exfiltration
+- **Multi-language support** for Python, R, SAS, and Julia
+- **Active proof of concept** with promising early results
 
-> *Your Protected B data stays secure*
+> Enhancing developer productivity while maintaining data security.
 
 ---
 
-<!-- Platform Architecture -->
-## Technical Foundation
+<!-- Production CronJobs Demo -->
+## Production CronJobs
 
-![bg left:33%](./img/zone-1.png)
+![bg left:33%](./img/zone-8.png)
 
-**Enterprise-Grade Stack**
+**Anomaly Monitoring System**
 
-- **Kubernetes** for container orchestration at scale
-- **Kubeflow** for end-to-end ML workflows
-- **Azure AKS** with cloud-agnostic design
-- **Protected B compliance** built-in
-- **Multi-language runtime** support
-- **GPU acceleration** for AI workloads
+**[Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**
+   
+- Generates synthetic data with statistical anomalies
 
-> Modern tech companies' platforms, tailored for government security
+**[Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**
+   
+- Pulls anomaly data and generates a dashboard
+
+**[Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**
+   
+- Analyzes detected anomalies with distribution comparisons
+- Produces comprehensive situation reports
+
+> From data generation to executive reporting - fully automated.
+
+---
+
+<!-- Demo 1: Anomaly Monitoring -->
+## Anomaly Monitoring System
+
+![bg left:33%](./img/zone-8.png)
+
+**Enterprise-Grade Statistical Monitoring**
+
+- **Kubernetes-native scheduling** with automatic retries and error handling
+- **R and Python integration** use either language, in fact, any language
+- **Automated reporting** with academic-quality visualizations
+- **GitOps workflow** with automatic dashboard updates
+- **Distributed architecture** spanning multiple repositories
+
+> Production-grade statistical monitoring that can scale.
 
 ---
 
 <!-- Future Roadmap -->
-## What's Next?
+## Roadmap: What's Next?
 
 ![bg left:33%](./img/zone-9.png)
 
-**Pipeline Orchestration & Beyond**
+**Strategic Evolution**
 
 - **Kubeflow Pipelines** for complex, reproducible workflows
-- **Enhanced monitoring** with real-time dashboards
-- **Expanded database connectors** for enterprise data sources
-- **Spark** for large-scale data processing
-- **AI model integration** - advancing from proof of concept
-- **Multi-variate anomaly detection** and clustering analysis
+- **Apache Spark** integration for large-scale data processing
+- **AI models** advancing from proof of concept to production
 
-> Building the future of data science at StatCan
-
----
-
-<!-- Contact & Resources -->
-## Get Started Today
-
-![bg left:33%](./img/zone-10.png)
-
-**Resources & Support**
-
-- **Platform**: https://zone.statcan.ca  
-- **Documentation**: Comprehensive guides available
-- **Training**: Regular workshops and office hours
-- **Support**: Zone team support channel
-- **Community**: Active user forums and collaboration
-
-> We're here to help you succeed in The Zone.
-> Reach out anytime!
-
-<!-- Portability & Federated Future -->
-## A Federated Future
-
-![bg left:33%](./img/zone-10.png)
-
-The Zone is open source and designed to scale. It can be deployed by:
-
-- Other teams at StatCan
-- Federal departments
-- Provincial and municipal governments
-
-<blockquote>
-Same foundation. Same security.
-<br>
-Deployed where you need it.
-</blockquote>
+> Building the next generation of data science capabilities at StatCan.
 
 ---
 
@@ -294,13 +215,10 @@ Deployed where you need it.
 You are invited to:
 
 - Access the platform: https://zone.statcan.ca
-- Migrate your SAS workflows gradually
-- Deploy production CronJobs
+- Attend training and workshops
 - Help shape the future of data science at StatCan
 - Host the next Zone in your department
 
 <blockquote>
-The Zone is a movement toward openness, sovereignty,
-<br>
-and shared capability.
+The Zone is a movement toward openness, sovereignty, and shared capability.
 </blockquote>
