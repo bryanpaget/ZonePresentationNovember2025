@@ -35,7 +35,7 @@
 
 ![bg left:33%](./img/zone-0.png)
 
-1. **Modernize** StatCan’s analytical infrastructure while preserving legacy SAS workloads.  
+1. **Modernize** StatCan,s analytical infrastructure while preserving legacy SAS workloads.  
 2. **Democratize access** to scalable, cloud-native tools across analytical communities.  
 3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.  
 4. **Enhance productivity** with AI-assisted coding—without compromising data security.  
@@ -76,7 +76,7 @@ The Zone is an open-source **Protected B data science platform** based on **Kube
 - **Portable architecture** on Azure AKS  
 - **AI-assisted coding** (PoC complete)
 
-> The secure, modern foundation for StatCan’s data science future.
+> The secure, modern foundation for StatCan,s data science future.
 
 ---
 
@@ -130,7 +130,7 @@ The Zone is an open-source **Protected B data science platform** based on **Kube
 ---
 
 <!-- Future Roadmap -->
-## Roadmap: What’s Next?  
+## Roadmap: What,s Next?  
 
 ![bg left:33%](./img/zone-9.png)
 
@@ -140,7 +140,7 @@ The Zone is an open-source **Protected B data science platform** based on **Kube
 - **Scaled AI models**: moving beyond PoC to operational AI assistance  
 - **Expanded training & community enablement**
 
-> Building StatCan’s next-generation data science fabric.
+> Building StatCan,s next-generation data science fabric.
 
 ---
 
