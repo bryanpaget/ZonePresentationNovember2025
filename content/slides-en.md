@@ -22,8 +22,8 @@
 ![bg left:33%](./img/zone-1.png)
 
 - The Zone is an open source, **Protected B** data science platform (with iATO) serving **2,500+ users**.  
-- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and LLM-assisted development.  
-- Recent milestones: platform hardening, **CronJobs for automated workflows**, and a **successful LLM PoC**.  
+- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and ProB LLM-assisted development.  
+- Recent milestones: iATO, platform hardening, **CronJobs for automated workflows**, and a **ProB LLM PoC**.  
 - Designed for **scalability, reproducibility, and sovereignty**, aligning with StatCan's digital and data strategies.
 
 > A unified, secure environment where legacy, modern and future data science methods can coexist.
@@ -36,9 +36,9 @@
 ![bg left:33%](./img/zone-0.png)
 
 1. **Modernize** StatCan's analytical infrastructure while enabling Shift to Open Source.  
-2. **Democratize access** to scalable, cloud-native tools across analytical communities.  
-3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.  
-4. **Enhance productivity** with LLM-assisted coding, without compromising data security.  
+2. **Democratize access** to scalable, cloud-native tools across analytical communities.
+3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.
+4. **Enhance productivity** with LLM-assisted coding, without compromising data security.
 5. **Foster collaboration** via shared tooling, version control, and open-source principles.
 
 > Bridging stability and innovation.
@@ -116,13 +116,13 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-8.png)
 
-**Intelligent Data Monitor[ (Link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
+**1. Intelligent Data Monitor[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
 - Generates synthetic data with statistical anomalies  
 
-**Anomaly Monitoring Dashboard[ (Link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
+**2. Anomaly Monitoring Dashboard[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
 - Visualizes anomalies via GitLab README.md  
 
-**Anomaly Situation Investigator[ (Link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
+**3. Anomaly Situation Investigator[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
 - Uses a small LLM to analyze anomalies and draft reports  
 
 > End-to-end automation: from detection to AI-assisted insight.
