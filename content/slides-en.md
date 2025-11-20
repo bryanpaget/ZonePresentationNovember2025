@@ -80,6 +80,25 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ---
 
+<!-- Our Story / History -->
+## Our Story
+
+**One Platform, Two Zones**
+
+![bg left:33%](./img/zone-1.png)
+
+- The Advanced Analytics Workspace (AAW) was the first Zone
+- The Zone is its Protected B counterpart
+- Built on the same foundation: **Kubeflow on Kubernetes**
+
+<blockquote>
+Same core. Same capabilities.
+<br>
+Higher security.
+</blockquote>
+
+---
+
 <!-- Platform Growth & Hardening -->
 ## Platform Evolution  
 
@@ -135,12 +154,31 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ![bg left:33%](./img/zone-9.png)
 
 **Strategic Evolution**  
-- **Kubeflow Pipelines** for complex, versioned workflows  
+- **Argo Workflows** for complex, versioned workflows  
 - **Apache Spark** integration (Python/R libraries ready)  
 - **Bigger LLM models**: moving beyond Proof of Concept to operational LLM assistance
 - **Expanded training & community enablement** Videos in particular
 
 > Building StatCan's next-generation data science community.
+
+---
+
+<!-- Portability & Federated Future -->
+## A Federated Future
+
+![bg left:33%](./img/zone-10.png)
+
+The Zone is open source and designed to scale. It can be deployed by:
+
+- Other teams at StatCan
+- Federal departments
+- Provincial and municipal governments
+
+<blockquote>
+Same foundation. Same security.
+<br>
+Deployed where you need it.
+</blockquote>
 
 ---
 
