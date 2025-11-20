@@ -23,7 +23,7 @@
 
 - The Zone is an open source, **Protected B** data science platform (with iATO) serving **2,500+ users**.  
 - Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and Protected B LLM-assisted development.  
-- Recent milestones: iATO, platform hardening, **CronJobs for automated workflows**, and a **Protected B LLM Proof of Concept**.  
+- Recent milestones: iATO, platform hardening, **CronJobs for automated workflows**, **Protected B LLM Proof of Concept**.  
 - Designed for **scalability, reproducibility, and sovereignty**, aligning with the Shift to Open Source strategy.
 
 > A unified, secure environment where legacy, modern and future data science methods can coexist.
