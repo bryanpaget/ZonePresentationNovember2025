@@ -44,7 +44,9 @@
 - Recent milestones: iATO, platform hardening, **CronJobs for automated workflows**, **Protected B LLM Proof of Concept**.  
 - Designed for **scalability, reproducibility, and sovereignty**, aligning with the Shift to Open Source strategy.
 
-> A unified, secure environment where legacy, modern and future data science methods can coexist.
+<blockquote>
+A unified, secure environment where legacy, modern and future data science methods can coexist.
+</blockquote>
 
 ---
 
@@ -59,7 +61,9 @@
 4. **Enhance productivity** with LLM-assisted coding, without compromising data security.
 5. **Foster collaboration** via shared tooling, version control, and open source principles.
 
-> Bridging stability and innovation.
+<blockquote>
+Bridging stability and innovation.
+</blockquote>
 
 ---
 
@@ -76,8 +80,9 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **Portable architecture** currently running on Azure AKS  
 - **LLM-assisted coding** (Proof of Concept complete)
 
-> The secure, modern foundation for StatCan's data science future.
-
+<blockquote>
+The secure, modern foundation for StatCan's data science future.
+</blockquote>
 ---
 
 <!-- Our Story / History -->
@@ -110,7 +115,9 @@ Higher security.
 - **Platform hardening**: improved security, stability, performance, and resource efficiency  
 - **LLM-assisted coding**: tested on CPU, Protected B infrastructure  
 
-> Transitioning from experimental adoption to production quality ability.
+<blockquote>
+Transitioning from experimental adoption to production quality ability.
+</blockquote>
 
 ---
 
@@ -125,7 +132,9 @@ Higher security.
 1. **Reusable Storage**: Persistent volumes outlast notebook servers  
 1. **Ollama + Continue**: Context-aware code generation
 
-> One platform. Your preferred tools.
+<blockquote>
+One platform. Your preferred tools.
+</blockquote>
 
 ---
 
@@ -143,7 +152,9 @@ Higher security.
 **3. Anomaly Situation Investigator[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
 - Protected B LLM, anomaly analysis, Git report history, CronJobs, Ollama, Qwen3:0.6b on CPU
 
-> End-to-end automation: from detection to AI-assisted insight.
+<blockquote>
+End-to-end automation: from detection to AI-assisted insight.
+</blockquote>
 
 ---
 
@@ -158,7 +169,9 @@ Higher security.
 - **Bigger LLM models**: moving beyond Proof of Concept to operational LLM assistance
 - **Expanded training & community enablement** Videos in particular
 
-> Building StatCan's next-generation data science community.
+<blockquote>
+Building StatCan's next-generation data science community.
+</blockquote>
 
 ---
 
