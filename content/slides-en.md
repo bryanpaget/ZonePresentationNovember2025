@@ -16,6 +16,24 @@
 
 ---
 
+<!-- Who We Are, Fall 2025 -->
+## The Zone Team  
+
+![bg left:33%](./img/zone-0.png)
+
+> Featuring Anray Liu from uOttawa!
+
+**Developers (IT-02):**  
+- Wendy Gaultier  
+- Mathis Marcotte  
+- Bryan Paget  
+- Souheil Yazji  
+
+**Team Lead (Acting IT-03):**  
+- Jose Matsuda  
+
+---
+
 <!-- Executive Summary -->
 ## Executive Summary  
 
@@ -42,24 +60,6 @@
 5. **Foster collaboration** via shared tooling, version control, and open-source principles.
 
 > Bridging stability and innovation.
-
----
-
-<!-- Who We Are, Fall 2025 -->
-## The Zone Team  
-
-![bg left:33%](./img/zone-0.png)
-
-> Featuring Anray Liu from uOttawa!
-
-**Developers (IT-02):**  
-- Wendy Gaultier  
-- Mathis Marcotte  
-- Bryan Paget  
-- Souheil Yazji  
-
-**Team Lead (Acting IT-03):**  
-- Jose Matsuda  
 
 ---
 
