@@ -22,11 +22,11 @@
 ![bg left:33%](./img/zone-1.png)
 
 - The Zone is an open source, **Protected B** data science platform (with iATO) serving **2,500+ users**.  
-- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and soon LLM-assisted development.  
+- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and LLM-assisted development.  
 - Recent milestones: platform hardening, **CronJobs for automated workflows**, and a **successful LLM PoC**.  
 - Designed for **scalability, reproducibility, and sovereignty**, aligning with StatCan's digital and data strategies.
 
-> A unified, secure environment where legacy and modern data science coexist.
+> A unified, secure environment where legacy, modern and future data science methods can coexist.
 
 ---
 
@@ -35,10 +35,10 @@
 
 ![bg left:33%](./img/zone-0.png)
 
-1. **Modernize** StatCan's analytical infrastructure while preserving legacy SAS workloads.  
+1. **Modernize** StatCan's analytical infrastructure while enabling Shift to Open Source.  
 2. **Democratize access** to scalable, cloud-native tools across analytical communities.  
 3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.  
-4. **Enhance productivity** with AI-assisted coding—without compromising data security.  
+4. **Enhance productivity** with LLM-assisted coding, without compromising data security.  
 5. **Foster collaboration** via shared tooling, version control, and open-source principles.
 
 > Bridging stability and innovation.
@@ -68,15 +68,15 @@
 
 ![bg left:33%](./img/zone-1.png)
 
-The Zone is an open-source **Protected B data science platform** based on **Kubeflow**, designed to orchestrate notebooks, jobs, and machine learning workflows.
+The Zone is an open source **Protected B data science platform** based on **Kubeflow**, designed to orchestrate notebooks, jobs, and machine learning workflows.
 
 **Core Capabilities:**  
 - **JupyterLab**, **VS Code**, and **RStudio** with multi-language support (Python, R, SAS, Julia)  
 - **CronJobs** for scheduled, GitOps-driven workflows  
-- **Portable architecture** on Azure AKS  
-- **AI-assisted coding** (PoC complete)
+- **Portable architecture** currently running on Azure AKS  
+- **LLM-assisted coding** (PoC complete)
 
-> The secure, modern foundation for StatCan,s data science future.
+> The secure, modern foundation for StatCan's data science future.
 
 ---
 
@@ -89,9 +89,9 @@ The Zone is an open-source **Protected B data science platform** based on **Kube
 - **2,500+ onboarded users** (+300 since August 2025)  
 - **290+ daily notebook sessions** (2× increase since August)  
 - **Platform hardening**: improved stability, performance, and resource efficiency  
-- **AI Coding PoC**: validated on CPU, zero-exfiltration infrastructure  
+- **LLM Coding PoC**: validated on CPU, zero-exfiltration infrastructure  
 
-> Transitioning from experimental adoption to mission-critical operations.
+> Transitioning from experimental adoption to production quality ability.
 
 ---
 
@@ -105,7 +105,7 @@ The Zone is an open-source **Protected B data science platform** based on **Kube
 2. **Cross-Language Workflows**: Seamless R, Python, SAS interoperability  
 3. **Reusable Storage**: Persistent volumes across notebook servers  
 4. **SAS Coexistence**: Native execution alongside modern stacks for gradual migration  
-5. **AI Assistance**: Context-aware code generation (PoC stage)
+5. **LLM Assistance**: Context-aware code generation (PoC stage)
 
 > One platform. Your preferred tools.
 
@@ -116,13 +116,13 @@ The Zone is an open-source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-8.png)
 
-**[Intelligent Data Monitor](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
+**Intelligent Data Monitor[ (Link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
 - Generates synthetic data with statistical anomalies  
 
-**[Anomaly Monitoring Dashboard](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
+**Anomaly Monitoring Dashboard[ (Link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
 - Visualizes anomalies via GitLab README.md  
 
-**[Anomaly Situation Investigator](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
+**Anomaly Situation Investigator[ (Link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
 - Uses a small LLM to analyze anomalies and draft reports  
 
 > End-to-end automation: from detection to AI-assisted insight.
