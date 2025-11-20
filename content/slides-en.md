@@ -87,8 +87,8 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 ![bg left:33%](./img/zone-1.png)
 
-- The Advanced Analytics Workspace (AAW) was the first Zone
-- The Zone is its Protected B counterpart
+- The Advanced Analytics Workspace was the first Zone
+- The Zone is the Protected B counterpart to the AAW
 - Built on the same foundation: **Kubeflow on Kubernetes**
 
 <blockquote>
