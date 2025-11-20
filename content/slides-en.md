@@ -57,7 +57,7 @@
 2. **Democratize access** to scalable, cloud-native tools across analytical communities.
 3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.
 4. **Enhance productivity** with LLM-assisted coding, without compromising data security.
-5. **Foster collaboration** via shared tooling, version control, and open-source principles.
+5. **Foster collaboration** via shared tooling, version control, and open source principles.
 
 > Bridging stability and innovation.
 
@@ -106,9 +106,9 @@ Higher security.
 
 **From Growth to Maturity**  
 - **2,500+ onboarded users** (+300 since August 2025)  
-- **290+ daily notebook sessions** (2× increase since August)  
+- **290+ active daily notebook sessions** (2× increase since August)  
 - **Platform hardening**: improved security, stability, performance, and resource efficiency  
-- **LLM Coding Proof of Concept**: validated on CPU, zero-exfiltration infrastructure  
+- **LLM-assisted coding**: tested on CPU, Protected B infrastructure  
 
 > Transitioning from experimental adoption to production quality ability.
 
@@ -120,11 +120,10 @@ Higher security.
 ![bg left:33%](./img/zone-8.png)
 
 **A Unified Experience Across Tools & Languages**  
-1. **Multi-IDE Support**: JupyterLab, VS Code, RStudio  
-2. **Cross-Language Workflows**: Seamless R, Python, SAS interoperability  
-3. **Reusable Storage**: Persistent volumes across notebook servers  
-4. **SAS Coexistence**: Native execution alongside modern stacks for gradual migration  
-5. **LLM Assistance**: Context-aware code generation (Proof of Concept stage)
+1. **Multiple Environments**: JupyterLab, VS Code, RStudio  
+1. **Multilingual Workflows**: Seamless R, Python, SAS interoperability
+1. **Reusable Storage**: Persistent volumes outlast notebook servers  
+1. **Ollama + Continue**: Context-aware code generation
 
 > One platform. Your preferred tools.
 
@@ -154,7 +153,7 @@ Higher security.
 ![bg left:33%](./img/zone-9.png)
 
 **Strategic Evolution**  
-- **Argo Workflows** for complex, versioned workflows  
+- **Argo Workflows** for complex, versioned workflows
 - **Apache Spark** integration (Python/R libraries ready)  
 - **Bigger LLM models**: moving beyond Proof of Concept to operational LLM assistance
 - **Expanded training & community enablement** Videos in particular
