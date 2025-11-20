@@ -7,7 +7,7 @@ on:
     branches: [fall-2025]
 
 permissions:
-  contents: write  # Required to create tags and releases
+  contents: write
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Needed to list tags
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -49,41 +49,36 @@ jobs:
             exit 1
           fi
 
-      - name: Upload PDF artifact (always)
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: zone-demo-pdf
           path: the-zone-demo-fall-2025.pdf
           retention-days: 30
 
-      # ONLY on push to fall-2025 (not on pull_request)
-      - name: Auto-create tag and release
+      # Only on push to fall-2025 (not PRs)
+      - name: Auto-tag and release
         if: github.event_name == 'push' && github.ref == 'refs/heads/fall-2025'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Configure Git
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Create a unique, sortable tag name
-          DATE=$(date -u +%Y.%m.%d)
-          TAG="auto/v${DATE}-run${{ github.run_number }}"
-          
-          echo "Creating tag: $TAG"
-          git tag "$TAG"
-          git push origin "$TAG"
 
-      - name: Create GitHub Release
-        if: github.event_name == 'push' && github.ref == 'refs/heads/fall-2025'
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: "auto/v$(date -u +%Y.%m.%d)-run${{ github.run_number }}"
-          name: "Auto Release – $(date -u +%Y-%m-%d) (Run ${{ github.run_number }})"
-          body: |
-            Automatically generated release for The Zone Fall 2025 demo.
-            
-            - Built from commit ${{ github.sha }}
-            - Triggered by push to \`fall-2025\`
-            - Run #${{ github.run_number }}
-          files: the-zone-demo-fall-2025.pdf
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Generate tag name
+          TAG_NAME="auto/v$(date -u +%Y.%m.%d)-run${{ github.run_number }}"
+          echo "Using tag: $TAG_NAME"
+
+          # Create and push tag
+          git tag "$TAG_NAME"
+          git push origin "$TAG_NAME"
+
+          # Create release using GitHub CLI (pre-installed on runner)
+          gh release create "$TAG_NAME" the-zone-demo-fall-2025.pdf \
+            --title "Auto Release – $(date -u +%Y-%m-%d) (Run ${{ github.run_number }})" \
+            --notes "Automatically generated release for The Zone Fall 2025 demo.
+
+          - Built from commit ${{ github.sha }}
+          - Triggered by push to \`fall-2025\`
+          - Run #${{ github.run_number }}"
