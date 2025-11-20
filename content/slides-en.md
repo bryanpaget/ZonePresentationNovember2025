@@ -51,7 +51,7 @@
 <!-- Objectives -->
 ## Strategic Objectives  
 
-![bg left:33%](./img/zone-0.png)
+![bg left:33%](./img/zone-1.png)
 
 1. **Modernize** StatCan's analytical infrastructure while enabling Shift to Open Source.  
 2. **Democratize access** to scalable, cloud-native tools across analytical communities.
