@@ -22,9 +22,9 @@
 ![bg left:33%](./img/zone-1.png)
 
 - The Zone is an open source, **Protected B** data science platform (with iATO) serving **2,500+ users**.  
-- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and ProB LLM-assisted development.  
-- Recent milestones: iATO, platform hardening, **CronJobs for automated workflows**, and a **ProB LLM PoC**.  
-- Designed for **scalability, reproducibility, and sovereignty**, aligning with StatCan's digital and data strategies.
+- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and Protected B LLM-assisted development.  
+- Recent milestones: iATO, platform hardening, **CronJobs for automated workflows**, and a **Protected B LLM Proof of Concept**.  
+- Designed for **scalability, reproducibility, and sovereignty**, aligning with the Shift to Open Source strategy.
 
 > A unified, secure environment where legacy, modern and future data science methods can coexist.
 
@@ -74,7 +74,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 - **JupyterLab**, **VS Code**, and **RStudio** with multi-language support (Python, R, SAS, Julia)  
 - **CronJobs** for scheduled, GitOps-driven workflows  
 - **Portable architecture** currently running on Azure AKS  
-- **LLM-assisted coding** (PoC complete)
+- **LLM-assisted coding** (Proof of Concept complete)
 
 > The secure, modern foundation for StatCan's data science future.
 
@@ -88,8 +88,8 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 **From Growth to Maturity**  
 - **2,500+ onboarded users** (+300 since August 2025)  
 - **290+ daily notebook sessions** (2× increase since August)  
-- **Platform hardening**: improved stability, performance, and resource efficiency  
-- **LLM Coding PoC**: validated on CPU, zero-exfiltration infrastructure  
+- **Platform hardening**: improved security, stability, performance, and resource efficiency  
+- **LLM Coding Proof of Concept**: validated on CPU, zero-exfiltration infrastructure  
 
 > Transitioning from experimental adoption to production quality ability.
 
@@ -105,7 +105,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 2. **Cross-Language Workflows**: Seamless R, Python, SAS interoperability  
 3. **Reusable Storage**: Persistent volumes across notebook servers  
 4. **SAS Coexistence**: Native execution alongside modern stacks for gradual migration  
-5. **LLM Assistance**: Context-aware code generation (PoC stage)
+5. **LLM Assistance**: Context-aware code generation (Proof of Concept stage)
 
 > One platform. Your preferred tools.
 
@@ -117,13 +117,13 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ![bg left:33%](./img/zone-8.png)
 
 **1. Intelligent Data Monitor[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
-- Generates synthetic data with statistical anomalies using CronJobs, Python and Git
+- Synthetic data, statistical anomalies, CronJobs, Python and Git
 
 **2. Anomaly Monitoring Dashboard[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
-- Visualizes anomalies via GitLab README.md using CronJobs, R and Git
+- GitLab as a Dashboard, CronJobs, R and Git
 
 **3. Anomaly Situation Investigator[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
-- Uses an LLM to analyze anomalies and draft reports on a schedule defined by a CronJob using Ollama to serve Qwen3:0.6b on CPU
+- Protected B LLM, anomaly analysis, Git report history, CronJobs, Ollama, Qwen3:0.6b on CPU
 
 > End-to-end automation: from detection to AI-assisted insight.
 
@@ -137,7 +137,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 **Strategic Evolution**  
 - **Kubeflow Pipelines** for complex, versioned workflows  
 - **Apache Spark** integration (Python/R libraries ready)  
-- **Bigger LLM models**: moving beyond PoC to operational LLM assistance
+- **Bigger LLM models**: moving beyond Proof of Concept to operational LLM assistance
 - **Expanded training & community enablement** Videos in particular
 
 > Building StatCan's next-generation data science community.
