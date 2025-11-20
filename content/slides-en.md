@@ -151,7 +151,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 
 You are invited to:  
 - Access the platform: https://zone.statcan.ca  
-- Attend training and workshops  
+- Attend training, workshops and watch videos
 - Help shape the future of data science at StatCan  
 - Host the next Zone in your department  
 
