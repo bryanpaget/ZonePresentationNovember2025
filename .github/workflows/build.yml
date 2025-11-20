@@ -3,12 +3,11 @@ name: Build Marp Slides PDFs
 on:
   push:
     branches: [fall-2025]
-    tags: ["v*"]
   pull_request:
     branches: [fall-2025]
 
 permissions:
-  contents: write
+  contents: write  # Required to create tags and releases
 
 jobs:
   build:
@@ -16,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Needed to list tags
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -48,26 +49,41 @@ jobs:
             exit 1
           fi
 
-      - name: Upload PDF artifact
+      - name: Upload PDF artifact (always)
         uses: actions/upload-artifact@v4
         with:
           name: zone-demo-pdf
           path: the-zone-demo-fall-2025.pdf
           retention-days: 30
 
-      - name: Create GitHub Release and upload PDF
-        if: startsWith(github.ref, 'refs/tags/')
+      # ONLY on push to fall-2025 (not on pull_request)
+      - name: Auto-create tag and release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/fall-2025'
+        run: |
+          # Configure Git
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Create a unique, sortable tag name
+          DATE=$(date -u +%Y.%m.%d)
+          TAG="auto/v${DATE}-run${{ github.run_number }}"
+          
+          echo "Creating tag: $TAG"
+          git tag "$TAG"
+          git push origin "$TAG"
+
+      - name: Create GitHub Release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/fall-2025'
         uses: softprops/action-gh-release@v1
         with:
-          files: the-zone-demo-fall-2025.pdf
+          tag_name: "auto/v$(date -u +%Y.%m.%d)-run${{ github.run_number }}"
+          name: "Auto Release – $(date -u +%Y-%m-%d) (Run ${{ github.run_number }})"
           body: |
-            # Zone Presentation
+            Automatically generated release for The Zone Fall 2025 demo.
             
-            Official PDF of The Zone demo presentation.
-            
-            ## Included
-            - `the-zone-demo-fall-2025.pdf`
-            
-            Built with Marp CLI via GitHub Actions.
+            - Built from commit ${{ github.sha }}
+            - Triggered by push to \`fall-2025\`
+            - Run #${{ github.run_number }}
+          files: the-zone-demo-fall-2025.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
