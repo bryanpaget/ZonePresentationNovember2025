@@ -130,17 +130,17 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ---
 
 <!-- Future Roadmap -->
-## Roadmap: What,s Next?  
+## Roadmap: What's Next?  
 
 ![bg left:33%](./img/zone-9.png)
 
 **Strategic Evolution**  
 - **Kubeflow Pipelines** for complex, versioned workflows  
 - **Apache Spark** integration (Python/R libraries ready)  
-- **Scaled AI models**: moving beyond PoC to operational AI assistance  
-- **Expanded training & community enablement**
+- **Bigger LLM models**: moving beyond PoC to operational LLM assistance  
+- **Expanded training & community enablement** Videos in particular
 
-> Building StatCan,s next-generation data science fabric.
+> Building StatCan's next-generation data science fabric.
 
 ---
 
