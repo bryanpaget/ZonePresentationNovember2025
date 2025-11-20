@@ -21,9 +21,9 @@
 
 ![bg left:33%](./img/zone-1.png)
 
-- The Zone is now a **production-grade**, **Protected B-compliant** data science platform serving **2,500+ users**.  
-- Built on **open-source Kubeflow**, it supports **Python, R, SAS, Julia**, and soon AI-assisted development.  
-- Recent milestones: platform hardening, **CronJobs for automated workflows**, and a **successful AI coding PoC**.  
+- The Zone is an open source, **Protected B** data science platform (with iATO) serving **2,500+ users**.  
+- Built on **Kubeflow**, it supports **Python, R, SAS, Julia**, and soon LLM-assisted development.  
+- Recent milestones: platform hardening, **CronJobs for automated workflows**, and a **successful LLM PoC**.  
 - Designed for **scalability, reproducibility, and sovereignty**, aligning with StatCan's digital and data strategies.
 
 > A unified, secure environment where legacy and modern data science coexist.
@@ -35,7 +35,7 @@
 
 ![bg left:33%](./img/zone-0.png)
 
-1. **Modernize** StatCan,s analytical infrastructure while preserving legacy SAS workloads.  
+1. **Modernize** StatCan's analytical infrastructure while preserving legacy SAS workloads.  
 2. **Democratize access** to scalable, cloud-native tools across analytical communities.  
 3. **Automate & industrialize** workflows through GitOps, Kubeflow, and CronJobs.  
 4. **Enhance productivity** with AI-assisted coding—without compromising data security.  
