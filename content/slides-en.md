@@ -117,10 +117,10 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 ![bg left:33%](./img/zone-8.png)
 
 **1. Intelligent Data Monitor[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/sample-k8s-cronjob-repo/-/tree/intelligent-data-monitor?ref_type=heads)**  
-- Synthetic data, statistical anomalies, CronJobs, Python and Git
+- Synthetic data, statistical anomalies, CronJobs, Python, GitOps
 
 **2. Anomaly Monitoring Dashboard[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-monitoring-dashboard)**  
-- GitLab as a Dashboard, CronJobs, R and Git
+- GitLab as a Dashboard, CronJobs, R, GitOps
 
 **3. Anomaly Situation Investigator[ (link)](https://gitlab.k8s.cloud.statcan.ca/bryan.paget/anomaly-situation-investigator/-/tree/main)**  
 - Protected B LLM, anomaly analysis, Git report history, CronJobs, Ollama, Qwen3:0.6b on CPU
