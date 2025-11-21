@@ -22,7 +22,7 @@ We've already **proven portability** by cloning and migrating from AAW to The Zo
 
 ---
 
-> ✅ **2,200+ users**  
+> ✅ **2,500+ users**  
 > 🚀 **Pipeline-ready for MLOps at scale**  
 > 🔐 **Secure, sovereign, and open source**
 
@@ -58,7 +58,7 @@ Nous avons déjà **prouvé la portabilité** en clonant et migrant de l'AAW ver
 
 ---
 
-> ✅ **2 200+ utilisateurs**  
+> ✅ **2 2500+ utilisateurs**  
 > 🚀 **Prêt pour les pipelines MLOps à grande échelle**  
 > 🔐 **Sécurisé, souverain et open source**
 
