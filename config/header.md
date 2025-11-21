@@ -29,7 +29,7 @@ style: |
 
       /* Size variables */
       --base-font-size: 16px;
-      --h1-size: 1.6em;
+      --h1-size: 1.7em;
       --h2-size: 1.4em;
       --h3-size: 1.2em;
       --p-size: 0.8em;
@@ -103,7 +103,7 @@ style: |
       border-left: 4px solid var(--secondary-color);
       margin-bottom: 1.1rem;
       font-size: 0.7rem;
-      line-height: 1.4;
+      line-height: 1.5;
       margin-left: 0;
       color: var(--dark-gray);
       font-style: italic;
