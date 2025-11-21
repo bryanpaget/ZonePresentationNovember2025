@@ -29,7 +29,7 @@ style: |
 
       /* Size variables */
       --base-font-size: 16px;
-      --h1-size: 1.7em;
+      --h1-size: 1.6em;
       --h2-size: 1.4em;
       --h3-size: 1.2em;
       --p-size: 0.8em;
