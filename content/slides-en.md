@@ -83,6 +83,7 @@ The Zone is an open source **Protected B data science platform** based on **Kube
 <blockquote>
 The secure, modern foundation for StatCan's data science future.
 </blockquote>
+
 ---
 
 <!-- Our Story / History -->
