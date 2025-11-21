@@ -102,8 +102,8 @@ style: |
   blockquote {
       border-left: 4px solid var(--secondary-color);
       margin-bottom: 1.1rem;
-      font-size: 0.8rem;
-      line-height: 1.8;
+      font-size: 0.7rem;
+      line-height: 1.4;
       margin-left: 0;
       color: var(--dark-gray);
       font-style: italic;
