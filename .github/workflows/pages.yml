@@ -1,0 +1,63 @@
+name: Deploy Marp Deck to GitHub Pages
+
+on:
+  push:
+    branches: [fall-2025]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install Marp CLI
+        run: npm install -g @marp-team/marp-cli
+
+      - name: Setup site directory
+        run: |
+          mkdir -p _site temp
+          cp -r img temp/
+
+      - name: Build English deck
+        run: |
+          cat config/header.md content/slides-en.md > temp/slides-en-combined.md
+          marp temp/slides-en-combined.md --html --allow-local-files -o _site/slides-en.html
+
+      - name: Build French deck
+        run: |
+          cat config/header.md content/slides-fr.md > temp/slides-fr-combined.md
+          marp temp/slides-fr-combined.md --html --allow-local-files -o _site/slides-fr.html
+
+      - name: Copy landing page and images
+        run: |
+          cp site/index.html _site/index.html
+          cp -r img _site/img
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
